@@ -5,17 +5,16 @@ ACCEPT_RESTRICT: *
 ARCH: arm64
 CBUILD: aarch64-unknown-linux-gnu
 CHOST: aarch64-unknown-linux-gnu
-CONFIG_PROTECT: /etc/locale.gen
-CONFIG_PROTECT_MASK: /etc/ca-certificates.conf /etc/env.d /etc/gconf /etc/gentoo-release /etc/sandbox.d
+CONFIG_PROTECT_MASK: /etc/ca-certificates.conf /etc/dconf /etc/env.d /etc/fonts/fonts.conf /etc/gconf /etc/gentoo-release /etc/sandbox.d
 ELIBC: glibc
-FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-multi-instance buildpkg buildpkg-live clean-logs config-protect-if-modified distlocks ebuild-locks fixlafiles ipc-sandbox merge-sync merge-wait multilib-strict network-sandbox parallel-fetch parallel-install pid-sandbox pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync
+FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-multi-instance buildpkg buildpkg-live clean-logs config-protect-if-modified distlocks ebuild-locks fixlafiles ipc-sandbox merge-sync merge-wait multilib-strict network-sandbox parallel-fetch parallel-install pid-sandbox pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 1237
+PACKAGES: 1242
 PROFILE: default/linux/arm64/23.0/desktop
-TIMESTAMP: 1733997787
-USE: X a52 aac acl acpi ada_target_gcc_12 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias arm64 bindist bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog cpu_flags_arm_aes cpu_flags_arm_asimddp cpu_flags_arm_crc32 cpu_flags_arm_edsp cpu_flags_arm_sha1 cpu_flags_arm_sha2 cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 crypt cups dbus dri dts dvdr elibc_glibc elogind encode exif flac gdbm gif gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_navcom gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gtk gui guile_single_target_3-0 guile_targets_3-0 iconv icu input_devices_libinput ipv6 jpeg kernel_linux kf6compat lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify libtirpc lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg ncurses nls office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php8-2 png policykit postgres_targets_postgres16 ppds python_single_target_python3_12 python_targets_python3_12 qml qt5 qt6 readline ruby_targets_ruby32 sdl seccomp sound spell ssl startup-notification svg test-rust tiff truetype udev udisks unicode upower usb video_cards_dummy video_cards_fbdev vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid zlib
+TIMESTAMP: 1733998881
+USE: X a52 aac acl acpi ada_target_gcc_12 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias arm64 bindist bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog cpu_flags_arm_aes cpu_flags_arm_asimddp cpu_flags_arm_crc32 cpu_flags_arm_edsp cpu_flags_arm_sha1 cpu_flags_arm_sha2 cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 crypt cups dbus dri dts dvdr elibc_glibc elogind encode exif flac gdbm gif gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_navcom gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gtk gui guile_single_target_3-0 guile_targets_3-0 iconv icu input_devices_evdev input_devices_libinput ipv6 jpeg kernel_linux kf6compat lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify libtirpc lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg ncurses networkmanager nls office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php8-2 png policykit postgres_targets_postgres16 ppds pulseaudio python_single_target_python3_12 python_targets_python3_12 qml qt5 qt6 readline ruby_targets_ruby32 sdl seccomp sound spell ssl startup-notification svg test-rust tiff truetype udev udisks unicode upower usb video_cards_dummy video_cards_fbdev video_cards_v3d video_cards_vc4 vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 ABI_X86 CPU_FLAGS_PPC CPU_FLAGS_X86 ELIBC KERNEL
 USE_EXPAND_IMPLICIT: ARCH ELIBC KERNEL
@@ -2097,6 +2096,24 @@ SHA1: bab1d72e899273f7fb3f95640fecde551c6da184
 SIZE: 40960
 USE: arm64 elibc_glibc kernel_linux python_single_target_python3_12
 MTIME: 1731010102
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1733998725
+CPV: app-eselect/eselect-repository-14-r1
+DEFINED_PHASES: compile install setup test
+EAPI: 8
+IUSE: +git mercurial test python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~arm64-macos ~x64-macos
+LICENSE: BSD-2
+MD5: 82c8594a807350f3b52128a5354b5a66
+PATH: app-eselect/eselect-repository/eselect-repository-14-r1-1.gpkg.tar
+RDEPEND: dev-lang/python:3.12 app-admin/eselect dev-python/lxml[python_targets_python3_12(-)] net-misc/wget dev-vcs/git
+RESTRICT: test
+SHA1: 981e27f1082dd40e767981989901c1beeb6df747
+SIZE: 40960
+USE: arm64 elibc_glibc git kernel_linux python_single_target_python3_12
+MTIME: 1733998725
 REPO: gentoo
 
 BUILD_ID: 1
@@ -16127,6 +16144,28 @@ USE: acl ads arm64 caps elibc_glibc kernel_linux pam python python_single_target
 MTIME: 1730379744
 REPO: gentoo
 
+BDEPEND: dev-python/docutils >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3
+BUILD_ID: 2
+BUILD_TIME: 1733998851
+CPV: net-fs/cifs-utils-7.0-r1
+DEFINED_PHASES: configure install postinst prepare setup
+DEPEND: sys-apps/keyutils:0/1.9= sys-libs/talloc virtual/krb5 sys-libs/libcap-ng sys-apps/keyutils:0/1.9= sys-libs/pam dev-lang/python:3.12
+EAPI: 8
+IUSE: +acl +ads +caps creds pam +python systemd python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~loong ~mips ~ppc ppc64 ~riscv ~s390 ~sparc x86 ~x86-linux
+LICENSE: GPL-3
+MD5: 64c3e061978f7e6623ceff7569549bd6
+PATH: net-fs/cifs-utils/cifs-utils-7.0-r1-2.gpkg.tar
+PDEPEND: >=net-fs/samba-4.0.0_alpha1
+PROVIDES: arm_64: pam_cifscreds.so
+RDEPEND: sys-apps/keyutils:0/1.9= sys-libs/talloc virtual/krb5 sys-libs/libcap-ng sys-apps/keyutils:0/1.9= sys-libs/pam dev-lang/python:3.12 >=sys-libs/glibc-2.40-r5
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libcap-ng.so.0 libgssapi_krb5.so.2 libkeyutils.so.1 libkrb5.so.3 libpam.so.0 libtalloc.so.2
+SHA1: 1762e56d6e8a7bf51a805737382b66ccdccb04c0
+SIZE: 235520
+USE: acl ads arm64 caps elibc_glibc kernel_linux pam python python_single_target_python3_12
+MTIME: 1733998851
+REPO: gentoo
+
 BDEPEND: dev-lang/python:3.12[threads(+),xml(+)] app-text/docbook-xsl-stylesheets dev-libs/libxslt virtual/pkgconfig virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1730380266
@@ -16302,6 +16341,27 @@ SHA1: eb80911bde125793445eecfdeb7c6b6796d45091
 SIZE: 593920
 USE: arm64 elibc_glibc kernel_linux
 MTIME: 1730378603
+REPO: gentoo
+
+BDEPEND: || ( dev-lang/python:3.13 dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) dev-util/glib-utils sys-apps/help2man virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1733998848
+CPV: net-libs/libmbim-1.28.4-r1
+DEFINED_PHASES: compile configure install setup test
+DEPEND: >=dev-libs/glib-2.56:2
+EAPI: 8
+IUSE: gtk-doc introspection
+KEYWORDS: ~alpha amd64 arm arm64 ~loong ~mips ppc ~ppc64 ~riscv x86
+LICENSE: LGPL-2
+MD5: 8bbe63a115f584e7a6471844bc6b9757
+PATH: net-libs/libmbim/libmbim-1.28.4-r1-1.gpkg.tar
+PROVIDES: arm_64: libmbim-glib.so.4
+RDEPEND: >=dev-libs/glib-2.56:2 >=sys-libs/glibc-2.40-r5
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0
+SHA1: 474abbb527e31dc9e0067a57d489577ad7a1fac4
+SIZE: 450560
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1733998848
 REPO: gentoo
 
 BUILD_ID: 1
@@ -16539,6 +16599,29 @@ SIZE: 2273280
 SLOT: 0/5.9
 USE: arm64 elibc_glibc kernel_linux mbim qrtr
 MTIME: 1730379019
+REPO: gentoo
+
+BDEPEND: sys-apps/help2man virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1733998881
+CPV: net-libs/libqmi-1.32.4-r1
+DEFINED_PHASES: compile configure install test
+DEPEND: >=dev-libs/glib-2.56 >=dev-libs/libgudev-232 >=net-libs/libmbim-1.18.0 >=net-libs/libqrtr-glib-1.0.0:0/0=
+EAPI: 8
+IUSE: gtk-doc introspection +mbim +qrtr
+KEYWORDS: amd64 arm arm64 ~loong ~mips ppc ~ppc64 ~riscv x86
+LICENSE: LGPL-2
+MD5: d2db3ee007bc66c22c6e743cc9b3f4b9
+PATH: net-libs/libqmi/libqmi-1.32.4-r1-1.gpkg.tar
+PROVIDES: arm_64: libqmi-glib.so.5
+RDEPEND: >=dev-libs/glib-2.56 >=dev-libs/libgudev-232 >=net-libs/libmbim-1.18.0 >=net-libs/libqrtr-glib-1.0.0:0/0= >=sys-libs/glibc-2.40-r5
+REPO_REVISIONS: {}
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgudev-1.0.so.0 libmbim-glib.so.4 libqrtr-glib.so.0
+SHA1: fa4b3c60f274fc546e6a77ff1d659a67826e4b22
+SIZE: 1587200
+SLOT: 0/5.9
+USE: arm64 elibc_glibc kernel_linux mbim qrtr
+MTIME: 1733998881
 REPO: gentoo
 
 BDEPEND: virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
@@ -17320,6 +17403,29 @@ SIZE: 1996800
 SLOT: 0/3
 USE: arm64 elibc_glibc kernel_linux mesh obex python_single_target_python3_12 readline udev
 MTIME: 1733299202
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3 virtual/pkgconfig virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1733998716
+CPV: net-wireless/bluez-5.79
+DEFINED_PHASES: compile configure install postinst postrm prepare setup test
+DEPEND: >=dev-libs/glib-2.28:2 net-print/cups:0/0= >=dev-libs/ell-0.39 >=dev-libs/json-c-0.13:0/5.1= sys-libs/readline:0/8= dev-libs/libical:0/3= sys-libs/readline:0/8= >=sys-apps/dbus-1.6:0/0= >=virtual/udev-196
+EAPI: 8
+IUSE: btpclient cups doc debug deprecated extra-tools experimental man +mesh midi +obex +readline selinux systemd test test-programs +udev python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ~mips ppc ~ppc64 ~riscv x86
+LICENSE: GPL-2+ LGPL-2.1+
+MD5: 98cc90cea510534069691162eb870a4f
+PATH: net-wireless/bluez/bluez-5.79-1.gpkg.tar
+PROVIDES: arm_64: libbluetooth.so.3
+RDEPEND: >=dev-libs/glib-2.28:2 net-print/cups:0/0= >=dev-libs/ell-0.39 >=dev-libs/json-c-0.13:0/5.1= sys-libs/readline:0/8= dev-libs/libical:0/3= sys-libs/readline:0/8= >=sys-apps/dbus-1.6:0/0= >=virtual/udev-196 >=sys-libs/glibc-2.40-r5
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libdbus-1.so.3 libell.so.0 libglib-2.0.so.0 libicalvcal.so.3 libjson-c.so.5 libreadline.so.8 libudev.so.1
+RESTRICT: test
+SHA1: 0db5525af6fb65786a5af165fbafb6534457807f
+SIZE: 1935360
+SLOT: 0/3
+USE: arm64 cups elibc_glibc kernel_linux mesh obex python_single_target_python3_12 readline udev
+MTIME: 1733998716
 REPO: gentoo
 
 BDEPEND: || ( dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) dev-libs/libxml2:2 dev-util/gdbus-codegen dev-util/glib-utils virtual/pkgconfig app-arch/xz-utils >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
@@ -21669,7 +21775,6 @@ MD5: bc0984aa0d6cf32565f30725687a10df
 PATH: sys-process/procps/procps-4.0.4-r2-1.gpkg.tar
 PROVIDES: arm_64: libproc2.so.0
 RDEPEND: sys-auth/elogind >=sys-libs/ncurses-5.7-r7:0/6=[unicode(+)] !<app-i18n/man-pages-l10n-4.2.0-r1 !<app-i18n/man-pages-de-2.12-r1 !<app-i18n/man-pages-pl-0.7-r1 !sys-apps/coreutils[kill] !sys-apps/util-linux[kill] >=sys-libs/glibc-2.40-r5
-REPO_REVISIONS: {}
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libelogind.so.0 libncursesw.so.6 libtinfow.so.6
 RESTRICT: test
 SHA1: 001c3fb437f9aa0c5a4ba16a56c039d5c64661bc
