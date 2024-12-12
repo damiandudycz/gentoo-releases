@@ -114,3 +114,4 @@ stage3-arm64-desktop-openrc-20241212T081407Z.tar.xz filter=lfs diff=lfs merge=lf
 stage4-arm64-desktop-openrc-20241212T081407Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-arm64-openrc-20241212T081407Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-arm64-desktop-gnome-openrc-20241212T081407Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage4-arm64-openrc-20241212T081407Z.tar.xz filter=lfs diff=lfs merge=lfs -text
