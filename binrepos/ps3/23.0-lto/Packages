@@ -1,20 +1,21 @@
 ACCEPT_KEYWORDS: ppc64
-ACCEPT_LICENSE: @FREE Mellanox-AS-IS Atmel linux-fw-redistributable ISSL JSON bonnie MicroChip-SDCC qlogic-fibre-channel-firmware NOSA NVIDIA-r2 Broadcom ipw2200-fw intel-ucode LSI-tw_cli no-source-code freedist ipw2100-fw unRAR CC-BY-SA-3.0 CC-BY-4.0 FDL-1.1 Free-Art-1.2 IPAfont GPL-3 CC-BY-SA-4.0 OFL-1.0 CC-BY-3.0 FDL-1.2+ CC-BY-SA-2.5 FDL-1.1+ CC-BY-2.0 FDL-1.3 OPL GPL-3+ GPL-2 FDL-1.3+ FDL-1.2 GPL-1 CC-BY-2.5 GPL-2+ Free-Art-1.3 OFL-1.1 Arphic CC-BY-SA-2.0 GPL-1+ wxWinFDL-3 BAEKMUK CC-BY-1.0 LDP-1 quake1-textures man-pages vlgothic BitstreamVera man-pages-posix-2013 CC-BY-SA-1.0 Texinfo-manual UbuntuFontLicense-1.0 CC-SA-1.0 mplus-fonts myspell-en_CA-KevinAtkinson LDP-1a CC-PD MaxMind2 PHP-3 BSD-2 PSF-2 MPL-2.0 MPL-1.1 CNRI POSTGRESQL IPAfont APL-1.0 APSL-2 W3C ECL-2.0 Unicode-3.0 AGPL-3 GPL-3 LGPL-2.1+ LGPL-3 MIT LPPL-1.3c Boost-1.0 nethack IBM Artistic-2 AFL-3.0 LBNLBSD Apache-1.1 CDDL Ms-PL Artistic AGPL-3+ EUPL-1.2 LGPL-3+ BSD HPND Ms-RL LPL-1.02 Unicode-DFS-2016 0BSD UoI-NCSA LGPL-2+ OSL-2.1 LGPL-2 wxWinLL-3 MPL-1.0 GPL-3+ GPL-2 ISC BlueOak-1.0.0 LGPL-2.1 EUPL-1.1 EPL-1.0 EPL-2.0 Apache-2.0 QPL-1.0 MirOS GPL-1 Unlicense UPL-1.0 PHP-3.01 GPL-2+ CPAL-1.0 OFL-1.1 ZLIB CPL-1.0 GPL-1+ ZPL MIT-0 Sleepycat LLGPL-2.1 ngrep openafs-krb5-a BSD-with-attribution torque-2.5 FLTK JOVE Time-modules par LPPL-1.3 wm2 Allegro coldspringharbor unicode CAOSL pngnq w3m Princeton symlinks TextMate-bundle inner-net LPPL-1.0 lsof ZSH BZIP2 otter Old-MIT perforce icu IDPL sash Flashpix ErlPL-1.1 matplotlib File-MMagic libpng curl JasPer2.0 Toyoda regexp-UofT XC ipadic mm iASL TeX Xdebug rdisc netcat alternate dom4j SMAIL Interbase-1.0 CPL-0.5 gd Spencer-99 AMPAS rwpng xboing RtMidi sdlsasteroids TeX-other-free mpich2 NEWLIB Openwall CDDL-Schily Emacs FVWM libpng2 UCAR-Unidata AIFFWriter.m HTML-Tidy libtiff buddy rc flexmock tcp_wrappers_license docbook scanlogd LambdaMOO photopc RSA NPSL-0.95 URT SSLeay Khronos-CLHPP BSD-with-disclosure Sendmail-Open-Source xtrs boehm-gc the-Click-license DES Sendmail Snd Time-Format imagemagick MIT-with-advertising minpack psutils Ispell tcltk pngcrush tablelist VTK bufexplorer.vim NCSA-AMD ElementTree feh Info-ZIP FastCGI libmng Sympow-BSD freetts JDOM xbatt tm-align PHP-2.02 BEER-WARE FLEX Mini-XML Crypt-IDEA repoze trio gsm PCRE CDDL-1.1 DUMB-0.9.3 BSD-2-with-patent BSD-1 LIBGLOSS NCSA-HDF NPL-1.1 CeCILL-C MPL-1.1 Zend-2.0 CNRI OSL-1.1 APSL-2 OSL-2.0 BSD-4 Apache-1.0 FraunhoferFDK IBM AFL-3.0 Apache-1.1 CDDL Ms-PL EUPL-1.2 Ms-RL AFL-2.1 LPL-1.02 OSL-2.1 LPPL-1.2 MPL-1.0 EUPL-1.1 EPL-2.0 EPL-1.0 QPL-1.0 CeCILL-B PHP-3.01 CPAL-1.0 GPL-3-with-openssl-exception BSD-2 PSF-2 MPL-2.0 OPENLDAP GPL-2-with-font-exception GPL-2+-with-openssl-exception W3C ECL-2.0 SGI-B-2.0 vim LGPL-3-with-linking-exception AGPL-3 GPL-2+-with-eCos-exception-2 GPL-3 LGPL-2.1+ LGPL-3 metapackage MIT PYTHON CeCILL-2 libstdc++ Ruby Boost-1.0 Artistic-2 WTFPL-2 IJG tanuki-community GPL-3-with-font-exception AGPL-3+ Nokia-Qt-LGPL-Exception-1.1 LGPL-3+ BSD LGPL-2-with-linking-exception HPND PSF-2.4 qwt Unicode-DFS-2016 UoI-NCSA Clarified-Artistic LGPL-2+ FSFAP LGPL-2 GPL-3+ GPL-2-with-MySQL-FLOSS-exception GPL-2 ISC public-domain LGPL-2.1 Apache-2.0-with-LLVM-exceptions Clear-BSD GPL-2-with-classpath-exception FTL Apache-2.0 Unlicense GPL-1 CC0-1.0 UPL-1.0 wxWinLL-3.1 UPX-exception GPL-2+ GPL-3+-with-font-exception Transmission-OpenSSL-exception GPL-3+-with-openssl-exception ZLIB libgcc GPL-2-with-linking-exception Ruby-BSD GPL-1+ GPL-2+-with-Pyinstaller-Bootloader-exception ZPL gcc-runtime-library-exception-3.1 LGPL-2.1-with-linking-exception GPL-3+-with-autoconf-exception Sleepycat CPL-1.0 gnuplot openssl LPPL-1.3a NVIDIA-r1 AVASYS bh-luxi shmux
+ACCEPT_LICENSE: @FREE
 ACCEPT_PROPERTIES: *
 ACCEPT_RESTRICT: *
 ARCH: ppc64
 CBUILD: powerpc64-unknown-linux-gnu
 CHOST: powerpc64-unknown-linux-gnu
+CONFIG_PROTECT: /etc/locale.gen
 CONFIG_PROTECT_MASK: /etc/ca-certificates.conf /etc/env.d /etc/gconf /etc/gentoo-release /etc/sandbox.d
 ELIBC: glibc
-FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-multi-instance buildpkg buildpkg-live clean-logs config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync merge-wait multilib-strict parallel-fetch parallel-install pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr
+FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-multi-instance buildpkg buildpkg-live clean-logs config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync merge-wait multilib-strict parallel-fetch parallel-install pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_ppc_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 1422
-PROFILE: default/linux/ppc64/23.0
-TIMESTAMP: 1734421581
-USE: acl ada_target_gcc_12 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias big-endian bindist bzip2 calligra_features_karbon calligra_features_sheets calligra_features_words collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog compile-locales cpu_flags_ppc_altivec crypt elibc_glibc fbcon gdbm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_navcom gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox guile_single_target_3-0 guile_targets_3-0 ibm iconv input_devices_evdev input_devices_libinput ipv6 kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text livecd lto lua_single_target_lua5-1 lua_targets_lua5-1 lvm ncurses nls office_implementation_libreoffice openmp pam pcre php_targets_php8-2 postgres_targets_postgres16 ppc64 ps3 python_single_target_python3_12 python_targets_python3_12 readline ruby_targets_ruby32 seccomp socks5 ssl test-rust unicode video_cards_dummy video_cards_fbdev xattr xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit zlib
+PACKAGES: 1426
+PROFILE: /var/db/repos/ps3/profiles/default/linux/ppc64/23.0/desktop/systemd
+TIMESTAMP: 1734439605
+USE: X a52 aac acl ada_target_gcc_12 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias big-endian bindist bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog cpu_flags_ppc_altivec crypt cups dbus dri dts dvd dvdr elibc_glibc encode exif flac gdbm gif gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_navcom gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gtk gui guile_single_target_3-0 guile_targets_3-0 ibm iconv icu input_devices_libinput ipv6 jpeg kernel_linux kf6compat lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg ncurses nls office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php8-2 png policykit postgres_targets_postgres16 ppc64 ppds python_single_target_python3_12 python_targets_python3_12 qml qt5 qt6 readline ruby_targets_ruby32 sdl seccomp sound spell ssl startup-notification svg systemd test-rust tiff truetype udev udisks unicode upower usb video_cards_dummy video_cards_fbdev video_cards_mga video_cards_r128 video_cards_radeon vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 ABI_X86 CPU_FLAGS_ARM CPU_FLAGS_X86 ELIBC KERNEL
 USE_EXPAND_IMPLICIT: ARCH ELIBC KERNEL
@@ -2602,7 +2603,6 @@ MD5: d5b977e2b0fbf7ecf290e48f99e40ba6
 PATH: app-misc/jq/jq-1.7.1-r1-1.gpkg.tar
 PROVIDES: ppc_64: libjq.so.1
 RDEPEND: >=dev-libs/oniguruma-6.9.3 >=sys-libs/glibc-2.40-r5
-REPO_REVISIONS: {}
 REQUIRES: ppc_64: libc.so.6 libm.so.6 libonig.so.5
 RESTRICT: test
 SHA1: 568fc6ac1b1954f3976902e606df402f1315ac3d
@@ -20502,6 +20502,30 @@ USE: acl dns-over-tls elibc_glibc gcrypt kernel-install kernel_linux kmod lz4 op
 MTIME: 1731864799
 REPO: gentoo
 
+BDEPEND: app-arch/xz-utils:0 dev-util/gperf >=dev-build/meson-0.46 >=sys-apps/coreutils-8.16 sys-devel/gettext virtual/pkgconfig app-text/docbook-xml-dtd:4.2 app-text/docbook-xml-dtd:4.5 app-text/docbook-xsl-stylesheets dev-libs/libxslt:0 dev-lang/python:3.12 dev-python/jinja2[python_targets_python3_12(-)] dev-python/lxml[python_targets_python3_12(-)] >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array virtual/pkgconfig virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1734436286
+CPV: sys-apps/systemd-256.7
+DEFINED_PHASES: compile configure install postinst preinst prepare prerm pretend setup test unpack
+DEPEND: >=sys-apps/util-linux-2.32:0/0= sys-libs/libcap:0/0= virtual/libcrypt:0/2= sys-apps/acl:0/0= >=dev-libs/libgcrypt-1.4.5:0/20= >=sys-apps/kmod-15:0/0= >=app-arch/lz4-0_p131:0/1.10.0-meson= >=dev-libs/openssl-1.1.0:0/3= sys-libs/pam:0/0= dev-libs/libpcre2 >=sys-libs/libseccomp-2.3.3:0/0= >=app-arch/zstd-1.4.0:0/1= >=sys-kernel/linux-headers-4.15
+EAPI: 8
+IUSE: acl apparmor audit boot bpf cgroup-hybrid cryptsetup curl +dns-over-tls elfutils fido2 +gcrypt gnutls homed http idn importd iptables +kernel-install +kmod +lz4 lzma +openssl pam pcre pkcs11 policykit pwquality qrcode +resolvconf +seccomp selinux split-usr +sysv-utils test tpm ukify vanilla xkb +zstd abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 secureboot
+KEYWORDS: ~alpha amd64 ~arm arm64 ~hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86
+LICENSE: GPL-2 LGPL-2.1 MIT public-domain
+MD5: b6201258f2bc891b46dc7f3a8522662d
+PATH: sys-apps/systemd/systemd-256.7-1.gpkg.tar
+PDEPEND: >=sys-apps/dbus-1.9.8[systemd] >=sys-fs/udev-init-scripts-34 sys-auth/polkit sys-apps/gentoo-systemd-integration
+PROVIDES: ppc_64: libnss_myhostname.so.2 libnss_mymachines.so.2 libnss_resolve.so.2 libnss_systemd.so.2 libsystemd-core-256.so libsystemd-shared-256.so libsystemd.so.0 libudev.so.1 pam_systemd.so pam_systemd_loadkey.so
+RDEPEND: >=sys-apps/util-linux-2.32:0/0= sys-libs/libcap:0/0= virtual/libcrypt:0/2= sys-apps/acl:0/0= >=dev-libs/libgcrypt-1.4.5:0/20= >=sys-apps/kmod-15:0/0= >=app-arch/lz4-0_p131:0/1.10.0-meson= >=dev-libs/openssl-1.1.0:0/3= sys-libs/pam:0/0= dev-libs/libpcre2 >=sys-libs/libseccomp-2.3.3:0/0= >=app-arch/zstd-1.4.0:0/1= >=acct-group/adm-0-r1 >=acct-group/wheel-0-r1 >=acct-group/kmem-0-r1 >=acct-group/tty-0-r1 >=acct-group/utmp-0-r1 >=acct-group/audio-0-r1 >=acct-group/cdrom-0-r1 >=acct-group/dialout-0-r1 >=acct-group/disk-0-r1 >=acct-group/input-0-r1 >=acct-group/kvm-0-r1 >=acct-group/lp-0-r1 >=acct-group/render-0-r1 acct-group/sgx >=acct-group/tape-0-r1 acct-group/users >=acct-group/video-0-r1 >=acct-group/systemd-journal-0-r1 >=acct-user/root-0-r1 acct-user/nobody >=acct-user/systemd-journal-remote-0-r1 >=acct-user/systemd-coredump-0-r1 >=acct-user/systemd-network-0-r1 acct-user/systemd-oom >=acct-user/systemd-resolve-0-r1 >=acct-user/systemd-timesync-0-r1 >=sys-apps/baselayout-2.2 !sys-apps/openrc[sysv-utils(-)] !sys-apps/openrc-navi[sysv-utils(-)] !sys-apps/sysvinit !net-dns/openresolv !sys-auth/nss-myhostname !sys-fs/eudev !sys-fs/udev >=sys-libs/glibc-2.40-r5
+REQUIRES: ppc_64: ld64.so.1 libacl.so.1 libblkid.so.1 libc.so.6 libcap.so.2 libcrypt.so.2 libcrypto.so.3 libfdisk.so.1 libgcrypt.so.20 libgpg-error.so.0 libm.so.6 libmount.so.1 libpam.so.0 libpam_misc.so.0 libseccomp.so.2 libssl.so.3
+RESTRICT: test
+SHA1: 64f7d262303e97fe180f422db4be16735a8ff770
+SIZE: 10762240
+SLOT: 0/2
+USE: acl dns-over-tls elibc_glibc gcrypt kernel-install kernel_linux kmod lz4 openssl pam pcre policykit ppc64 python_single_target_python3_12 resolvconf seccomp sysv-utils zstd
+MTIME: 1734436338
+REPO: gentoo
+
 BDEPEND: app-text/docbook-xml-dtd:4.2 app-text/docbook-xml-dtd:4.5 app-text/docbook-xsl-stylesheets dev-libs/libxslt dev-util/gperf >=sys-apps/coreutils-8.16 sys-devel/gettext virtual/pkgconfig dev-python/jinja2[python_targets_python3_12(-)] dev-python/lxml[python_targets_python3_12(-)] >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1730565641
@@ -21639,6 +21663,28 @@ SHA1: a01ea55ec9ae30573387f39dda984f26cd02c30c
 SIZE: 13516800
 USE: cramfs elibc_glibc hardlink kernel_linux logger ncurses nls pam ppc64 python_targets_python3_12 readline static-libs su suid unicode
 MTIME: 1734420938
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig app-text/po4a sys-devel/gettext >=app-portage/elt-patches-20240116 virtual/pkgconfig
+BUILD_ID: 7
+BUILD_TIME: 1734437854
+CPV: sys-apps/util-linux-2.40.2
+DEFINED_PHASES: compile configure install postinst prepare pretend test unpack
+DEPEND: virtual/libcrypt:0/2= sys-libs/zlib:0/1= dev-libs/libpcre2:0/3= sys-libs/ncurses:0/6=[unicode(+)] virtual/libintl sys-libs/pam sys-libs/readline:0/8= sys-apps/systemd virtual/libudev:0/1= virtual/os-headers acct-group/root
+EAPI: 8
+IUSE: audit build caps +cramfs cryptsetup fdformat +hardlink kill +logger magic ncurses nls pam python +readline rtas selinux slang static-libs +su +suid systemd test tty-helpers udev unicode uuidd python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 verify-sig
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos
+LICENSE: GPL-2 GPL-3 LGPL-2.1 BSD-4 MIT public-domain
+MD5: 51c544c10d6ebf85ff505e43a6cbf5aa
+PATH: sys-apps/util-linux/util-linux-2.40.2-7.gpkg.tar
+PROVIDES: ppc_64: libblkid.so.1 libfdisk.so.1 libmount.so.1 libsmartcols.so.1 libuuid.so.1
+RDEPEND: virtual/libcrypt:0/2= sys-libs/zlib:0/1= dev-libs/libpcre2:0/3= sys-libs/ncurses:0/6=[unicode(+)] virtual/libintl sys-libs/pam sys-libs/readline:0/8= sys-apps/systemd virtual/libudev:0/1= !app-arch/hardlink !>=app-admin/sysklogd-2.0[logger] !<sys-apps/shadow-4.7-r2 !>=sys-apps/shadow-4.7-r2[su] !net-wireless/rfkill >=sys-libs/glibc-2.40-r5
+REQUIRES: ppc_64: ld64.so.1 libc.so.6 libcrypt.so.2 libm.so.6 libncursesw.so.6 libpam.so.0 libpam_misc.so.0 libreadline.so.8 libsystemd.so.0 libtinfow.so.6 libudev.so.1 libz.so.1
+RESTRICT: test
+SHA1: f81250440997ed34ede5cc2bf03ae41d51651a81
+SIZE: 5232640
+USE: cramfs elibc_glibc hardlink kernel_linux logger ncurses nls pam ppc64 python_targets_python3_12 readline su suid systemd udev unicode
+MTIME: 1734437887
 REPO: gentoo
 
 BUILD_ID: 1
@@ -23456,6 +23502,29 @@ USE: elibc_glibc initramfs kernel_linux ppc64 strip
 MTIME: 1733574313
 REPO: ps3
 
+BDEPEND: || ( dev-lang/python:3.13 dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) app-alternatives/cpio app-alternatives/bc dev-lang/perl sys-devel/bison sys-devel/flex virtual/libelf
+BUILD_ID: 2
+BUILD_TIME: 1734425494
+CPV: sys-kernel/gentoo-kernel-ps3-6.6.62
+DEFINED_PHASES: compile config configure install postinst postrm preinst prepare pretend setup test
+EAPI: 8
+IDEPEND: >=sys-kernel/installkernel-14
+IUSE: debug experimental hardened secureboot savedconfig +initramfs test generic-uki modules-compress +strip modules-sign
+KEYWORDS: amd64 ~arm arm64 ~hppa ~loong ~ppc ppc64 ~riscv ~sparc x86
+LICENSE: GPL-2
+MD5: 1270fe76521eb3d6c6dd67e4475363dd
+PATH: sys-kernel/gentoo-kernel-ps3/gentoo-kernel-ps3-6.6.62-2.gpkg.tar
+PROVIDES: ppc_32: linux-vdso32.so.1 ppc_64: linux-vdso64.so.1
+RDEPEND: !sys-kernel/gentoo-kernel-bin:6.6.62 sys-apps/kmod[lzma] virtual/libelf >=sys-libs/glibc-2.40-r5
+REQUIRES: ppc_64: libc.so.6 libcrypto.so.3
+RESTRICT: test
+SHA1: a337fd2ad32bc328181a75a0611d5d3401a61239
+SIZE: 24135680
+SLOT: 6.6.62
+USE: elibc_glibc kernel_linux ppc64 strip
+MTIME: 1734425533
+REPO: ps3
+
 BUILD_ID: 1
 BUILD_TIME: 1730797466
 CPV: sys-kernel/installkernel-48-r1
@@ -24499,6 +24568,30 @@ SIZE: 1054720
 SLOT: 0/0-ng
 USE: elibc_glibc kernel_linux kill ncurses nls ppc64 unicode
 MTIME: 1734415842
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig virtual/pkgconfig >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3
+BUILD_ID: 3
+BUILD_TIME: 1734439584
+CPV: sys-process/procps-4.0.4-r2
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=sys-libs/ncurses-5.7-r7:0/6=[unicode(+)] sys-apps/systemd
+EAPI: 8
+IUSE: elogind +kill modern-top +ncurses nls selinux static-libs skill systemd test unicode abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux
+LICENSE: GPL-2+ LGPL-2+ LGPL-2.1+
+MD5: abeb624b81f56129c9e6ec342a28f52a
+PATH: sys-process/procps/procps-4.0.4-r2-3.gpkg.tar
+PROVIDES: ppc_64: libproc2.so.0
+RDEPEND: >=sys-libs/ncurses-5.7-r7:0/6=[unicode(+)] sys-apps/systemd !<app-i18n/man-pages-l10n-4.2.0-r1 !<app-i18n/man-pages-de-2.12-r1 !<app-i18n/man-pages-pl-0.7-r1 !sys-apps/coreutils[kill] !sys-apps/util-linux[kill] >=sys-libs/glibc-2.40-r5
+REPO_REVISIONS: {}
+REQUIRES: ppc_64: ld64.so.1 libc.so.6 libncursesw.so.6 libsystemd.so.0 libtinfow.so.6
+RESTRICT: test
+SHA1: be3b221d2f56b3509411ad034541e538f0ddf859
+SIZE: 1064960
+SLOT: 0/0-ng
+USE: elibc_glibc kernel_linux kill ncurses nls ppc64 systemd unicode
+MTIME: 1734439603
 REPO: gentoo
 
 BDEPEND: >=dev-build/libtool-2.2.6b sys-devel/gettext
@@ -28722,4 +28815,5 @@ SIZE: 440320
 USE: elibc_glibc kernel_linux locking opengl pam ppc64 systemd
 MTIME: 1732804305
 REPO: gentoo
+
 
