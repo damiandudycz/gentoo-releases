@@ -122,3 +122,4 @@ livecd-stage1-cell-20241216T074513Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-desktop-systemd-20241216T074513Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-systemd-20241216T074513Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-cell-desktop-mate-openrc-20241216T074513Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage4-cell-desktop-systemd-20241216T074513Z.tar.xz filter=lfs diff=lfs merge=lfs -text
