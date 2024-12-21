@@ -137,3 +137,4 @@ install-cell-20241221T103121Z.iso filter=lfs diff=lfs merge=lfs -text
 stage3-cell-desktop-openrc-20241221T122907Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-cell-desktop-openrc-20241221T122907Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-openrc-20241221T122907Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+livecd-stage1-cell-20241221T122907Z.tar.xz filter=lfs diff=lfs merge=lfs -text
