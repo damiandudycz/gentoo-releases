@@ -1,20 +1,20 @@
 ACCEPT_KEYWORDS: ppc64
-ACCEPT_LICENSE: @FREE bh-luxi freedist AVASYS ipw2100-fw alternate pngcrush unicode tm-align inner-net FVWM MIT-with-advertising Emacs NEWLIB DUMB-0.9.3 File-MMagic minpack libpng CAOSL xboing icu ElementTree Mini-XML regexp-UofT imagemagick AMPAS Openwall docbook trio NPSL-0.95 URT NCSA-AMD torque-2.5 CDDL-1.1 w3m DES symlinks Time-Format Princeton Allegro TeX-other-free LPPL-1.0 FLTK wm2 BEER-WARE xtrs Sympow-BSD VTK Xdebug bufexplorer.vim gd otter netcat PHP-2.02 rdisc BSD-1 Sendmail sdlsasteroids SMAIL lsof gsm psutils BSD-with-attribution BZIP2 dom4j mm PCRE boehm-gc Interbase-1.0 rc LLGPL-2.1 xbatt Ispell coldspringharbor CPL-0.5 HTML-Tidy matplotlib ngrep rwpng photopc AIFFWriter.m BSD-with-disclosure libtiff Time-modules Toyoda SSLeay Sendmail-Open-Source libmng Spencer-99 JOVE TextMate-bundle sash JasPer2.0 par Old-MIT tcp_wrappers_license Flashpix BSD-2-with-patent JDOM ErlPL-1.1 iASL Snd IDPL ipadic Khronos-CLHPP Info-ZIP curl freetts Crypt-IDEA openafs-krb5-a libpng2 feh mpich2 scanlogd FastCGI RtMidi pngnq the-Click-license XC tablelist LambdaMOO buddy CDDL-Schily RSA LIBGLOSS NCSA-HDF FLEX TeX flexmock LPPL-1.3 repoze UCAR-Unidata tcltk perforce ZSH Boost-1.0 GPL-2+ Ms-PL LBNLBSD MirOS LGPL-2.1+ LGPL-3+ LGPL-2+ OFL-1.1 CPAL-1.0 ISC AGPL-3 0BSD EUPL-1.2 LGPL-2 GPL-1 ZLIB CNRI CPL-1.0 UoI-NCSA MIT-0 W3C ECL-2.0 GPL-3+ BSD-2 LPL-1.02 BlueOak-1.0.0 Ms-RL PHP-3.01 MIT Unicode-DFS-2016 IBM BSD QPL-1.0 APSL-2 EPL-2.0 POSTGRESQL Apache-1.1 nethack OSL-2.1 LPPL-1.3c GPL-3 Artistic-2 PHP-3 Unicode-3.0 Artistic MPL-2.0 UPL-1.0 APL-1.0 EPL-1.0 EUPL-1.1 LGPL-3 MPL-1.1 IPAfont wxWinLL-3 Sleepycat MPL-1.0 PSF-2 CDDL Unlicense HPND AGPL-3+ GPL-1+ Apache-2.0 ZPL LGPL-2.1 GPL-2 AFL-3.0 Ms-PL NPL-1.1 Zend-2.0 CPAL-1.0 EUPL-1.2 LPPL-1.2 OSL-1.1 CNRI CPL-1.0 Apache-1.0 openssl Ms-RL LPL-1.02 PHP-3.01 IBM LPPL-1.3a QPL-1.0 APSL-2 Boost-1.0 GPL-2+ ZPL GPL-2-with-font-exception Nokia-Qt-LGPL-Exception-1.1 public-domain PSF-2.4 LGPL-2.1+ PYTHON vim Ruby-BSD LGPL-3+ LGPL-2+ LGPL-3-with-linking-exception ISC LGPL-2 AGPL-3 GPL-2-with-MySQL-FLOSS-exception libstdc++ wxWinLL-3.1 GPL-1 GPL-2-with-classpath-exception LGPL-2.1-with-linking-exception ZLIB Clear-BSD UoI-NCSA W3C GPL-2+-with-eCos-exception-2 ECL-2.0 SGI-B-2.0 GPL-3+ BSD-2 GPL-3-with-openssl-exception gcc-runtime-library-exception-3.1 WTFPL-2 MIT Unicode-DFS-2016 FTL tanuki-community BSD OPENLDAP Clarified-Artistic Transmission-OpenSSL-exception UPX-exception Apache-2.0-with-LLVM-exceptions GPL-2-with-linking-exception Artistic-2 FSFAP GPL-2+-with-Pyinstaller-Bootloader-exception GPL-3 CC0-1.0 GPL-3+-with-font-exception MPL-2.0 metapackage UPL-1.0 CeCILL-2 LGPL-3 PSF-2 Ruby GPL-2+-with-openssl-exception GPL-3+-with-openssl-exception IJG Unlicense GPL-3-with-font-exception HPND AGPL-3+ GPL-1+ GPL-3+-with-autoconf-exception qwt LGPL-2-with-linking-exception Apache-2.0 libgcc LGPL-2.1 GPL-2 Sleepycat FraunhoferFDK EPL-2.0 Apache-1.1 OSL-2.1 gnuplot CeCILL-C OSL-2.0 AFL-2.1 EUPL-1.1 EPL-1.0 BSD-4 MPL-1.1 CDDL MPL-1.0 CeCILL-B AFL-3.0 LDP-1 MaxMind2 BitstreamVera mplus-fonts myspell-en_CA-KevinAtkinson quake1-textures CC-BY-1.0 CC-SA-1.0 Texinfo-manual UbuntuFontLicense-1.0 wxWinFDL-3 man-pages-posix-2013 BAEKMUK CC-BY-SA-1.0 man-pages LDP-1a CC-PD vlgothic GPL-2+ OFL-1.1 CC-BY-SA-4.0 GPL-1 GPL-2 FDL-1.1+ OPL GPL-3+ CC-BY-SA-2.0 FDL-1.2+ FDL-1.1 FDL-1.2 CC-BY-SA-3.0 FDL-1.3 FDL-1.3+ GPL-3 CC-BY-2.0 CC-BY-4.0 IPAfont Free-Art-1.2 CC-BY-2.5 Free-Art-1.3 OFL-1.0 CC-BY-SA-2.5 GPL-1+ Arphic CC-BY-3.0 ipw2200-fw JSON intel-ucode shmux no-source-code linux-fw-redistributable Broadcom NVIDIA-r2 qlogic-fibre-channel-firmware MicroChip-SDCC unRAR Mellanox-AS-IS ISSL LSI-tw_cli NVIDIA-r1 NOSA bonnie Atmel
+ACCEPT_LICENSE: @FREE
 ACCEPT_PROPERTIES: *
 ACCEPT_RESTRICT: *
 ARCH: ppc64
 CBUILD: powerpc64-unknown-linux-gnu
 CHOST: powerpc64-unknown-linux-gnu
-CONFIG_PROTECT_MASK: /etc/ca-certificates.conf /etc/env.d /etc/gconf /etc/gentoo-release /etc/revdep-rebuild /etc/sandbox.d
+CONFIG_PROTECT_MASK: /etc/ca-certificates.conf /etc/env.d /etc/gconf /etc/gentoo-release /etc/sandbox.d
 ELIBC: glibc
-FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-multi-instance buildpkg buildpkg-live clean-logs config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync merge-wait multilib-strict parallel-fetch parallel-install pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr
+FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-multi-instance buildpkg buildpkg-live clean-logs config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync merge-wait multilib-strict nodoc noinfo noman parallel-fetch parallel-install pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_ppc_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 1444
+PACKAGES: 1448
 PROFILE: default/linux/ppc64/23.0
-TIMESTAMP: 1734782074
-USE: acl ada_target_gcc_12 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias big-endian bindist bzip2 calligra_features_karbon calligra_features_sheets calligra_features_words collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog cpu_flags_ppc_altivec crypt elibc_glibc gdbm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_navcom gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox guile_single_target_3-0 guile_targets_3-0 ibm iconv input_devices_evdev input_devices_libinput ipv6 kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lua_single_target_lua5-1 lua_targets_lua5-1 lvm ncurses nls office_implementation_libreoffice openmp pam pcre php_targets_php8-2 postgres_targets_postgres16 ppc64 python_single_target_python3_12 python_targets_python3_12 readline ruby_targets_ruby32 seccomp ssl test-rust unicode video_cards_dummy video_cards_fbdev xattr xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit zlib
+TIMESTAMP: 1734796086
+USE: big-endian bindist build cpu_flags_ppc_altivec elibc_glibc kernel_linux pkg-config ppc64 python_single_target_python3_12 python_targets_python3_12 test-rust unicode xml zstd
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 ABI_X86 CPU_FLAGS_ARM CPU_FLAGS_X86 ELIBC KERNEL
 USE_EXPAND_IMPLICIT: ARCH ELIBC KERNEL
@@ -5036,6 +5036,30 @@ USE: elibc_glibc kernel_linux ppc64
 MTIME: 1734341136
 REPO: gentoo
 
+BDEPEND: app-arch/bzip2 >=sys-libs/zlib-1.2.12 virtual/libcrypt:0/2=
+BUILD_ID: 38
+BUILD_TIME: 1734796043
+CPV: dev-lang/perl-5.40.0
+DEFINED_PHASES: configure install postinst postrm preinst prepare pretend setup test
+DEPEND: app-arch/bzip2 >=sys-libs/zlib-1.2.12 virtual/libcrypt:0/2=
+EAPI: 8
+IUSE: berkdb perl_features_debug doc gdbm perl_features_ithreads minimal perl_features_quadmath
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: || ( Artistic GPL-1+ )
+MD5: 3bd6c682c807eca3763be055d5c50e73
+PATH: dev-lang/perl/perl-5.40.0-38.gpkg.tar
+PDEPEND: >=app-admin/perl-cleaner-2.31 >=virtual/perl-CPAN-2.290.0 >=virtual/perl-Encode-3.120.0 >=virtual/perl-File-Temp-0.230.400-r2 >=virtual/perl-Data-Dumper-2.154.0 >=virtual/perl-Math-BigInt-1.999.842 virtual/perl-Test-Harness
+PROVIDES: ppc_64: B.so Base64.so Byte.so Bzip2.so CN.so Call.so Collate.so Cwd.so DosGlob.so Dumper.so EBCDIC.so Encode.so FastCalc.so Fcntl.so FieldHash.so Glob.so HiRes.so Hostname.so IO.so JP.so KR.so Langinfo.so MD5.so Normalize.so Opcode.so POSIX.so Peek.so Piece.so SDBM_File.so SHA.so Socket.so Storable.so Symbol.so SysV.so Syslog.so TW.so Unicode.so Util.so Zlib.so attributes.so encoding.so libperl.so.5.40 mmap.so mro.so re.so shared.so threads.so via.so
+RDEPEND: app-arch/bzip2 >=sys-libs/zlib-1.2.12 virtual/libcrypt:0/2= >=sys-libs/glibc-2.40-r5
+REPO_REVISIONS: {}
+REQUIRES: ppc_64: libbz2.so.1 libc.so.6 libcrypt.so.2 libm.so.6 libz.so.1
+SHA1: 0b6b760b15beb6a8522c50f89bcc2f29f574463a
+SIZE: 15585280
+SLOT: 0/5.40
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1734796084
+REPO: gentoo
+
 BDEPEND: dev-build/autoconf-archive app-alternatives/awk virtual/pkgconfig >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 )
 BUILD_ID: 1
 BUILD_TIME: 1730470161
@@ -5954,6 +5978,29 @@ SIZE: 11991040
 SLOT: 3.12
 USE: build elibc_glibc kernel_linux ppc64
 MTIME: 1734339499
+REPO: gentoo
+
+BDEPEND: dev-build/autoconf-archive app-alternatives/awk virtual/pkgconfig >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 )
+BUILD_ID: 20
+BUILD_TIME: 1734793645
+CPV: dev-lang/python-3.12.7_p1
+DEFINED_PHASES: compile configure install prepare pretend setup test unpack
+DEPEND: app-arch/bzip2:0/1= app-arch/xz-utils:0/0= app-crypt/libb2 >=dev-libs/expat-2.1:0/0= dev-libs/libffi:0/8= dev-libs/mpdecimal:4/4= dev-python/gentoo-common >=sys-libs/zlib-1.1.3:0/1= virtual/libcrypt:0/2= virtual/libintl sys-apps/util-linux:0/0=
+EAPI: 8
+IUSE: bluetooth build debug +ensurepip examples gdbm libedit +ncurses pgo +readline +sqlite +ssl test tk valgrind verify-sig
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86
+LICENSE: PSF-2
+MD5: d0442d172a7f28515924d5f13e13587e
+PATH: dev-lang/python/python-3.12.7_p1-20.gpkg.tar
+PROVIDES: ppc_64: _asyncio.cpython-312-powerpc64-linux-gnu.so _bisect.cpython-312-powerpc64-linux-gnu.so _blake2.cpython-312-powerpc64-linux-gnu.so _bz2.cpython-312-powerpc64-linux-gnu.so _codecs_cn.cpython-312-powerpc64-linux-gnu.so _codecs_hk.cpython-312-powerpc64-linux-gnu.so _codecs_iso2022.cpython-312-powerpc64-linux-gnu.so _codecs_jp.cpython-312-powerpc64-linux-gnu.so _codecs_kr.cpython-312-powerpc64-linux-gnu.so _codecs_tw.cpython-312-powerpc64-linux-gnu.so _contextvars.cpython-312-powerpc64-linux-gnu.so _crypt.cpython-312-powerpc64-linux-gnu.so _csv.cpython-312-powerpc64-linux-gnu.so _ctypes.cpython-312-powerpc64-linux-gnu.so _ctypes_test.cpython-312-powerpc64-linux-gnu.so _datetime.cpython-312-powerpc64-linux-gnu.so _decimal.cpython-312-powerpc64-linux-gnu.so _elementtree.cpython-312-powerpc64-linux-gnu.so _heapq.cpython-312-powerpc64-linux-gnu.so _json.cpython-312-powerpc64-linux-gnu.so _lsprof.cpython-312-powerpc64-linux-gnu.so _lzma.cpython-312-powerpc64-linux-gnu.so _md5.cpython-312-powerpc64-linux-gnu.so _multibytecodec.cpython-312-powerpc64-linux-gnu.so _multiprocessing.cpython-312-powerpc64-linux-gnu.so _opcode.cpython-312-powerpc64-linux-gnu.so _pickle.cpython-312-powerpc64-linux-gnu.so _posixshmem.cpython-312-powerpc64-linux-gnu.so _posixsubprocess.cpython-312-powerpc64-linux-gnu.so _queue.cpython-312-powerpc64-linux-gnu.so _random.cpython-312-powerpc64-linux-gnu.so _sha1.cpython-312-powerpc64-linux-gnu.so _sha2.cpython-312-powerpc64-linux-gnu.so _sha3.cpython-312-powerpc64-linux-gnu.so _socket.cpython-312-powerpc64-linux-gnu.so _statistics.cpython-312-powerpc64-linux-gnu.so _struct.cpython-312-powerpc64-linux-gnu.so _testbuffer.cpython-312-powerpc64-linux-gnu.so _testcapi.cpython-312-powerpc64-linux-gnu.so _testclinic.cpython-312-powerpc64-linux-gnu.so _testimportmultiple.cpython-312-powerpc64-linux-gnu.so _testinternalcapi.cpython-312-powerpc64-linux-gnu.so _testmultiphase.cpython-312-powerpc64-linux-gnu.so _testsinglephase.cpython-312-powerpc64-linux-gnu.so _uuid.cpython-312-powerpc64-linux-gnu.so _xxinterpchannels.cpython-312-powerpc64-linux-gnu.so _xxsubinterpreters.cpython-312-powerpc64-linux-gnu.so _xxtestfuzz.cpython-312-powerpc64-linux-gnu.so _zoneinfo.cpython-312-powerpc64-linux-gnu.so array.cpython-312-powerpc64-linux-gnu.so audioop.cpython-312-powerpc64-linux-gnu.so binascii.cpython-312-powerpc64-linux-gnu.so cmath.cpython-312-powerpc64-linux-gnu.so fcntl.cpython-312-powerpc64-linux-gnu.so grp.cpython-312-powerpc64-linux-gnu.so libpython3.12.so.1.0 math.cpython-312-powerpc64-linux-gnu.so mmap.cpython-312-powerpc64-linux-gnu.so ossaudiodev.cpython-312-powerpc64-linux-gnu.so pyexpat.cpython-312-powerpc64-linux-gnu.so resource.cpython-312-powerpc64-linux-gnu.so select.cpython-312-powerpc64-linux-gnu.so spwd.cpython-312-powerpc64-linux-gnu.so syslog.cpython-312-powerpc64-linux-gnu.so termios.cpython-312-powerpc64-linux-gnu.so unicodedata.cpython-312-powerpc64-linux-gnu.so xxlimited.cpython-312-powerpc64-linux-gnu.so xxlimited_35.cpython-312-powerpc64-linux-gnu.so xxsubtype.cpython-312-powerpc64-linux-gnu.so zlib.cpython-312-powerpc64-linux-gnu.so
+RDEPEND: app-arch/bzip2:0/1= app-arch/xz-utils:0/0= app-crypt/libb2 >=dev-libs/expat-2.1:0/0= dev-libs/libffi:0/8= dev-libs/mpdecimal:4/4= dev-python/gentoo-common >=sys-libs/zlib-1.1.3:0/1= virtual/libcrypt:0/2= virtual/libintl sys-apps/util-linux:0/0= dev-lang/python-exec[python_targets_python3_12(-)] >=sys-libs/glibc-2.40-r5
+REQUIRES: ppc_64: ld64.so.1 libb2.so.1 libbz2.so.1 libc.so.6 libcrypt.so.2 libexpat.so.1 libffi.so.8 liblzma.so.5 libm.so.6 libmpdec.so.4 libuuid.so.1 libz.so.1
+RESTRICT: test
+SHA1: f9a0f339d50ae2f181f7577c7666d10d0f6fcc27
+SIZE: 11991040
+SLOT: 3.12
+USE: build elibc_glibc kernel_linux ppc64
+MTIME: 1734793666
 REPO: gentoo
 
 BDEPEND: dev-build/autoconf-archive app-alternatives/awk virtual/pkgconfig >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 )
@@ -8294,6 +8341,30 @@ SIZE: 7720960
 SLOT: 0/3
 USE: asm elibc_glibc kernel_linux ppc64 quic
 MTIME: 1734695437
+REPO: gentoo
+
+BDEPEND: >=dev-lang/perl-5
+BUILD_ID: 2
+BUILD_TIME: 1734789152
+CPV: dev-libs/openssl-3.3.2-r1
+DEFINED_PHASES: compile configure install postinst preinst prepare setup test unpack
+DEPEND: !<net-misc/openssh-9.2_p1-r3
+EAPI: 8
+IUSE: +asm cpu_flags_x86_sse2 fips ktls +quic rfc3779 sctp static-libs test tls-compression vanilla verify-sig weak-ssl-ciphers abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 verify-sig
+KEYWORDS: ~alpha amd64 ~arm arm64 ~hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: Apache-2.0
+MD5: 5a5a9e5fadba878bc3e42416260770b2
+PATH: dev-libs/openssl/openssl-3.3.2-r1-2.gpkg.tar
+PDEPEND: app-misc/ca-certificates
+PROVIDES: ppc_64: afalg.so capi.so legacy.so libcrypto.so.3 libssl.so.3 loader_attic.so padlock.so
+RDEPEND: !<net-misc/openssh-9.2_p1-r3
+REQUIRES: ppc_64: libc.so.6
+RESTRICT: test
+SHA1: 0ef17877430b974017cbdb8c59dd8a87f1a1183c
+SIZE: 7546880
+SLOT: 0/3
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1734789574
 REPO: gentoo
 
 BDEPEND: dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.115.0:* || ( dev-qt/qtbase:6 dev-qt/qtcore:5 ) app-alternatives/ninja >=dev-build/cmake-3.20.5
@@ -20824,6 +20895,28 @@ USE: elibc_glibc kernel_linux ppc64
 MTIME: 1734336438
 REPO: gentoo
 
+BDEPEND: app-arch/xz-utils sys-devel/gettext >=app-portage/elt-patches-20240116
+BUILD_ID: 44
+BUILD_TIME: 1734790205
+CPV: sys-apps/shadow-4.14.8
+DEFINED_PHASES: configure install postinst preinst prepare unpack
+DEPEND: virtual/libcrypt:0/2= !<sys-libs/glibc-2.38 >=sys-kernel/linux-headers-4.14
+EAPI: 8
+IUSE: acl audit cracklib nls pam selinux skey split-usr su systemd xattr verify-sig
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86
+LICENSE: BSD GPL-2
+MD5: eb43c12f55a30f82df1514dc4ca0408d
+PATH: sys-apps/shadow/shadow-4.14.8-44.gpkg.tar
+PROVIDES: ppc_64: libsubid.so.4
+RDEPEND: virtual/libcrypt:0/2= !<sys-libs/glibc-2.38 >=sys-libs/glibc-2.40-r5
+REQUIRES: ppc_64: libc.so.6 libcrypt.so.2
+SHA1: 41a4be8516379b4e1429def81e38b770ef250704
+SIZE: 675840
+SLOT: 0/4
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1734790225
+REPO: gentoo
+
 BDEPEND: app-arch/xz-utils:0 dev-util/gperf >=dev-build/meson-0.46 >=sys-apps/coreutils-8.16 sys-devel/gettext virtual/pkgconfig app-text/docbook-xml-dtd:4.2 app-text/docbook-xml-dtd:4.5 app-text/docbook-xsl-stylesheets dev-libs/libxslt:0 dev-lang/python:3.12 dev-python/jinja2[python_targets_python3_12(-)] dev-python/lxml[python_targets_python3_12(-)] >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array virtual/pkgconfig virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1731023776
@@ -22079,6 +22172,28 @@ SHA1: f81250440997ed34ede5cc2bf03ae41d51651a81
 SIZE: 5232640
 USE: cramfs elibc_glibc hardlink kernel_linux logger ncurses nls pam ppc64 python_targets_python3_12 readline su suid systemd udev unicode
 MTIME: 1734437887
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig >=app-portage/elt-patches-20240116 virtual/pkgconfig
+BUILD_ID: 8
+BUILD_TIME: 1734791124
+CPV: sys-apps/util-linux-2.40.2
+DEFINED_PHASES: compile configure install postinst prepare pretend test unpack
+DEPEND: virtual/libcrypt:0/2= virtual/os-headers acct-group/root
+EAPI: 8
+IUSE: audit build caps +cramfs cryptsetup fdformat +hardlink kill +logger magic ncurses nls pam python +readline rtas selinux slang static-libs +su +suid systemd test tty-helpers udev unicode uuidd python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 verify-sig
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos
+LICENSE: GPL-2 GPL-3 LGPL-2.1 BSD-4 MIT public-domain
+MD5: 9976ca6c6d166364361b7272d95b8f2c
+PATH: sys-apps/util-linux/util-linux-2.40.2-8.gpkg.tar
+PROVIDES: ppc_64: libblkid.so.1 libfdisk.so.1 libmount.so.1 libsmartcols.so.1 libuuid.so.1
+RDEPEND: virtual/libcrypt:0/2= !net-wireless/rfkill >=sys-libs/glibc-2.40-r5
+REQUIRES: ppc_64: ld64.so.1 libc.so.6 libcrypt.so.2 libm.so.6
+RESTRICT: test
+SHA1: fd4dcdc7fe783971a58b863027c75632906e8feb
+SIZE: 2355200
+USE: build elibc_glibc kernel_linux ppc64 python_targets_python3_12 unicode
+MTIME: 1734791156
 REPO: gentoo
 
 BUILD_ID: 1
@@ -23824,30 +23939,6 @@ SIZE: 491520
 USE: elibc_glibc kernel_linux ppc64
 MTIME: 1730797357
 REPO: gentoo
-
-BDEPEND: || ( dev-lang/python:3.13 dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) app-alternatives/cpio app-alternatives/bc dev-lang/perl sys-devel/bison sys-devel/flex virtual/libelf
-BUILD_ID: 3
-BUILD_TIME: 1734782036
-CPV: sys-kernel/gentoo-kernel-ps3-6.6.62
-DEFINED_PHASES: compile config configure install postinst postrm preinst prepare pretend setup test
-EAPI: 8
-IDEPEND: >=sys-kernel/installkernel-14
-IUSE: debug experimental hardened X secureboot savedconfig +initramfs test generic-uki modules-compress +strip modules-sign
-KEYWORDS: amd64 ~arm arm64 ~hppa ~loong ~ppc ppc64 ~riscv ~sparc x86
-LICENSE: GPL-2
-MD5: 34fea18152e893577a2b71021933550f
-PATH: sys-kernel/gentoo-kernel-ps3/gentoo-kernel-ps3-6.6.62-3.gpkg.tar
-PROVIDES: ppc_32: linux-vdso32.so.1 ppc_64: linux-vdso64.so.1
-RDEPEND: !sys-kernel/gentoo-kernel-bin:6.6.62 sys-apps/kmod[lzma] virtual/libelf >=sys-libs/glibc-2.40-r5
-REPO_REVISIONS: {}
-REQUIRES: ppc_64: libc.so.6 libcrypto.so.3
-RESTRICT: test
-SHA1: 4ebaf0ecd6561f0045d41b7249615655ad743858
-SIZE: 25036800
-SLOT: 6.6.62
-USE: elibc_glibc kernel_linux ppc64 strip
-MTIME: 1734782072
-REPO: ps3
 
 BUILD_ID: 1
 BUILD_TIME: 1730797466
