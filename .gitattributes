@@ -131,3 +131,4 @@ stage4-cell-systemd-20241216T074513Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 livecd-stage1-cell-20241220T104406Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 livecd-stage2-cell-20241220T104406Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 install-cell-20241220T104406Z.iso filter=lfs diff=lfs merge=lfs -text
+livecd-stage1-cell-20241221T103121Z.tar.xz filter=lfs diff=lfs merge=lfs -text
