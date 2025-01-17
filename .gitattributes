@@ -195,3 +195,4 @@ releases/ps3/23.0-lto/20250117T033803Z/stage4-cell-desktop-mate-openrc-20250117T
 releases/ps3/23.0-lto/20250115T071903Z/in filter=lfs diff=lfs merge=lfs -text
 releases/ps3/23.0-lto/20250117T033803Z/stage4-cell-desktop-xfce-openrc-20250117T033803Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 releases/ps3/23.0-lto/20250117T033803Z/stage4-cell-openrc-20250117T033803Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage4-cell-desktop-xfce-openrc-20250117T080145Z.tar.xz filter=lfs diff=lfs merge=lfs -text
