@@ -200,3 +200,4 @@ stage4-cell-desktop-openrc-20250117T033803Z.tar.xz filter=lfs diff=lfs merge=lfs
 stage4-cell-desktop-mate-openrc-20250117T033803Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-cell-openrc-20250117T033803Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-desktop-openrc-20250120T145516Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage3-cell-openrc-20250120T145516Z.tar.xz filter=lfs diff=lfs merge=lfs -text
