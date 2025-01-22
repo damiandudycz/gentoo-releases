@@ -206,3 +206,4 @@ stage3-cell-openrc-20250121T045038Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-cell-openrc-20250121T045038Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-arm64-desktop-openrc-20250122T112110Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-arm64-desktop-openrc-20250122T112110Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage3-arm64-openrc-20250122T112110Z.tar.xz filter=lfs diff=lfs merge=lfs -text
