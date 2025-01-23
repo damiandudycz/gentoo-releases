@@ -216,3 +216,4 @@ livecd-stage1-cell-20250122T093854Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 livecd-stage2-cell-20250122T093854Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 install-cell-20250122T093854Z.iso filter=lfs diff=lfs merge=lfs -text
 stage4-cell-desktop-mate-openrc-20250122T093854Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage4-cell-desktop-xfce-openrc-20250122T093854Z.tar.xz filter=lfs diff=lfs merge=lfs -text
