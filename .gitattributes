@@ -224,3 +224,4 @@ livecd-stage1-cell-20250301T120450Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-cell-openrc-20250301T120450Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-arm64-openrc-20250301T201016Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-arm64-openrc-20250301T201016Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage3-cell-desktop-openrc-20250304T233300Z.tar.xz filter=lfs diff=lfs merge=lfs -text
