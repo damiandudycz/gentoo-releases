@@ -5,16 +5,17 @@ ACCEPT_RESTRICT: *
 ARCH: ppc64
 CBUILD: powerpc64-unknown-linux-gnu
 CHOST: powerpc64-unknown-linux-gnu
+CONFIG_PROTECT: /etc/locale.gen
 CONFIG_PROTECT_MASK: /etc/ca-certificates.conf /etc/env.d /etc/gconf /etc/gentoo-release /etc/sandbox.d
 ELIBC: glibc
-FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-multi-instance buildpkg buildpkg-live clean-logs config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync merge-wait multilib-strict nodoc noinfo noman parallel-fetch parallel-install pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr
+FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-multi-instance buildpkg buildpkg-live clean-logs config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync merge-wait multilib-strict parallel-fetch parallel-install pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_ppc_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 1232
-PROFILE: default/linux/ppc64/23.0
-TIMESTAMP: 1741155934
-USE: big-endian bindist build cpu_flags_ppc_altivec elibc_glibc kernel_linux pkg-config ppc64 python_single_target_python3_12 python_targets_python3_12 test-rust unicode xml zstd
+PACKAGES: 1254
+PROFILE: default/linux/ppc64/23.0/desktop
+TIMESTAMP: 1741239876
+USE: X a52 aac acl ada_target_gcc_14 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias big-endian bindist bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog cpu_flags_ppc_altivec crypt cups dbus dri dts dvd dvdr elibc_glibc elogind encode exif flac gdbm gif gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_navcom gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gtk gui guile_single_target_3-0 guile_targets_3-0 ibm iconv icu input_devices_libinput ipv6 jpeg kernel_linux kf6compat lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg ncurses nls office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php8-2 png policykit postgres_targets_postgres16 ppc64 ppds python_single_target_python3_12 python_targets_python3_12 qml qt5 qt6 readline ruby_targets_ruby32 sdl seccomp sound spell ssl startup-notification svg test-rust tiff truetype udev udisks unicode upower usb video_cards_dummy video_cards_fbdev video_cards_mga video_cards_r128 video_cards_radeon vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 ABI_X86 CPU_FLAGS_ARM CPU_FLAGS_X86 ELIBC KERNEL
 USE_EXPAND_IMPLICIT: ARCH ELIBC KERNEL
@@ -1873,6 +1874,51 @@ USE: bzip2 elibc_glibc kernel_linux nls ppc64 readline smartcard ssl tofu
 MTIME: 1740856917
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig sys-devel/gettext virtual/pkgconfig
+BUILD_ID: 2
+BUILD_TIME: 1741236948
+CPV: app-crypt/gnupg-2.4.7
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: >=dev-libs/libassuan-2.5.0:0/3.0= >=dev-libs/libgcrypt-1.9.1:0/20= >=dev-libs/libgpg-error-1.46 >=dev-libs/libksba-1.6.3 >=dev-libs/npth-1.2 >=net-misc/curl-7.10 sys-libs/zlib app-arch/bzip2 sys-libs/readline:0/8= virtual/libusb:1 >=dev-db/sqlite-3.27 >=net-libs/gnutls-3.2:0/30.30=
+EAPI: 8
+IUSE: bzip2 doc ldap nls readline selinux +smartcard ssl test +tofu tpm tools usb user-socket wks-server verify-sig
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: GPL-3+
+MD5: 5df4f11f9f57c168cc57566c78ee8cfb
+PATH: app-crypt/gnupg/gnupg-2.4.7-2.gpkg.tar
+PDEPEND: app-crypt/pinentry
+RDEPEND: >=dev-libs/libassuan-2.5.0:0/3.0= >=dev-libs/libgcrypt-1.9.1:0/20= >=dev-libs/libgpg-error-1.46 >=dev-libs/libksba-1.6.3 >=dev-libs/npth-1.2 >=net-misc/curl-7.10 sys-libs/zlib app-arch/bzip2 sys-libs/readline:0/8= virtual/libusb:1 >=dev-db/sqlite-3.27 >=net-libs/gnutls-3.2:0/30.30= virtual/libintl >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libassuan.so.9 libbz2.so.1 libc.so.6 libgcrypt.so.20 libgnutls.so.30 libgpg-error.so.0 libksba.so.8 libnpth.so.0 libreadline.so.8 libsqlite3.so.0 libusb-1.0.so.0 libz.so.1
+RESTRICT: test
+SHA1: 755f36f112930cabd96a9f8eaeb021c91ac1cd12
+SIZE: 4597760
+USE: bzip2 elibc_glibc kernel_linux nls ppc64 readline smartcard ssl tofu usb
+MTIME: 1741236987
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig sys-devel/gettext virtual/pkgconfig
+BUILD_ID: 3
+BUILD_TIME: 1741239831
+CPV: app-crypt/gnupg-2.4.7
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: >=dev-libs/libassuan-2.5.0:0/3.0= >=dev-libs/libgcrypt-1.9.1:0/20= >=dev-libs/libgpg-error-1.46 >=dev-libs/libksba-1.6.3 >=dev-libs/npth-1.2 >=net-misc/curl-7.10 sys-libs/zlib app-arch/bzip2 sys-libs/readline:0/8= virtual/libusb:1 >=dev-db/sqlite-3.27 >=net-libs/gnutls-3.2:0/30.30=
+EAPI: 8
+IUSE: bzip2 doc ldap nls readline selinux +smartcard ssl test +tofu tpm tools usb user-socket wks-server verify-sig
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: GPL-3+
+MD5: e8cc233cd3eb53969a37657b5bdc5b15
+PATH: app-crypt/gnupg/gnupg-2.4.7-3.gpkg.tar
+PDEPEND: app-crypt/pinentry
+RDEPEND: >=dev-libs/libassuan-2.5.0:0/3.0= >=dev-libs/libgcrypt-1.9.1:0/20= >=dev-libs/libgpg-error-1.46 >=dev-libs/libksba-1.6.3 >=dev-libs/npth-1.2 >=net-misc/curl-7.10 sys-libs/zlib app-arch/bzip2 sys-libs/readline:0/8= virtual/libusb:1 >=dev-db/sqlite-3.27 >=net-libs/gnutls-3.2:0/30.30= virtual/libintl >=sys-libs/glibc-2.40-r8
+REPO_REVISIONS: {}
+REQUIRES: ppc_64: libassuan.so.9 libbz2.so.1 libc.so.6 libgcrypt.so.20 libgnutls.so.30 libgpg-error.so.0 libksba.so.8 libnpth.so.0 libreadline.so.8 libsqlite3.so.0 libusb-1.0.so.0 libz.so.1
+RESTRICT: test
+SHA1: ae75380010cd126b84847c40465b1b9f8adf608a
+SIZE: 4597760
+USE: bzip2 elibc_glibc kernel_linux nls ppc64 readline smartcard ssl tofu usb
+MTIME: 1741239871
+REPO: gentoo
+
 BDEPEND: >=app-portage/elt-patches-20240116
 BUILD_ID: 1
 BUILD_TIME: 1736204767
@@ -2148,6 +2194,27 @@ SHA1: 40b39a3330c36bd79a03d7fc7a91fc22a8857ef2
 SIZE: 143360
 USE: elibc_glibc kernel_linux ncurses ppc64
 MTIME: 1740901242
+REPO: gentoo
+
+BDEPEND: sys-devel/gettext virtual/pkgconfig >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/libtool-2.4.7-r3
+BUILD_ID: 2
+BUILD_TIME: 1741237950
+CPV: app-crypt/pinentry-1.3.1-r1
+DEFINED_PHASES: configure install postinst postrm prepare unpack
+DEPEND: >=dev-libs/libassuan-2.1:0/3.0= >=dev-libs/libgcrypt-1.6.3 >=dev-libs/libgpg-error-1.17 sys-libs/ncurses:0/6= dev-qt/qtbase:6[gui,widgets] kde-frameworks/kguiaddons:6 kde-frameworks/kwindowsystem:6
+EAPI: 8
+IDEPEND: >=app-eselect/eselect-pinentry-0.7.4
+IUSE: caps efl emacs gtk keyring ncurses qt6 wayland X verify-sig
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: GPL-2
+MD5: 4add325c487f419a92992b82c2d42cab
+PATH: app-crypt/pinentry/pinentry-1.3.1-r1-2.gpkg.tar
+RDEPEND: >=dev-libs/libassuan-2.1:0/3.0= >=dev-libs/libgcrypt-1.6.3 >=dev-libs/libgpg-error-1.17 sys-libs/ncurses:0/6= dev-qt/qtbase:6[gui,widgets] kde-frameworks/kguiaddons:6 kde-frameworks/kwindowsystem:6 app-crypt/gcr:4[gtk] >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libKF6GuiAddons.so.6 libKF6WindowSystem.so.6 libQt6Core.so.6 libQt6Gui.so.6 libQt6Widgets.so.6 libassuan.so.9 libc.so.6 libgcc_s.so.1 libgcr-4.so.4 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgpg-error.so.0 libncursesw.so.6 libstdc++.so.6 libtinfow.so.6
+SHA1: 9fb9b023c871bc2a8e6b04d9e966f1ba5f874e70
+SIZE: 225280
+USE: X elibc_glibc gtk kernel_linux ncurses ppc64 qt6 wayland
+MTIME: 1741237976
 REPO: gentoo
 
 BDEPEND: sys-devel/gettext
@@ -4359,7 +4426,6 @@ PATH: dev-lang/perl/perl-5.40.0-r1-10.gpkg.tar
 PDEPEND: >=app-admin/perl-cleaner-2.31 >=virtual/perl-CPAN-2.290.0 >=virtual/perl-Encode-3.120.0 >=virtual/perl-File-Temp-0.230.400-r2 >=virtual/perl-Data-Dumper-2.154.0 >=virtual/perl-Math-BigInt-1.999.842 virtual/perl-Test-Harness
 PROVIDES: ppc_64: B.so Base64.so Byte.so Bzip2.so CN.so Call.so Collate.so Cwd.so DosGlob.so Dumper.so EBCDIC.so Encode.so FastCalc.so Fcntl.so FieldHash.so Glob.so HiRes.so Hostname.so IO.so JP.so KR.so Langinfo.so MD5.so Normalize.so Opcode.so POSIX.so Peek.so Piece.so SDBM_File.so SHA.so Socket.so Storable.so Symbol.so SysV.so Syslog.so TW.so Unicode.so Util.so Zlib.so attributes.so encoding.so libperl.so.5.40 mmap.so mro.so re.so shared.so threads.so via.so
 RDEPEND: app-arch/bzip2 >=sys-libs/zlib-1.2.12 virtual/libcrypt:0/2= >=sys-libs/glibc-2.40-r8
-REPO_REVISIONS: {}
 REQUIRES: ppc_64: libbz2.so.1 libc.so.6 libcrypt.so.2 libm.so.6 libz.so.1
 SHA1: 561d8e6e8a4ee2365d2639e30dba2ef5e39b499b
 SIZE: 15575040
@@ -7246,6 +7312,42 @@ USE: elibc_glibc kernel_linux ppc64
 MTIME: 1736361959
 REPO: gentoo
 
+BDEPEND: dev-libs/libpcre2:* dev-qt/qtbase:6 >=kde-frameworks/extra-cmake-modules-6.0:* app-alternatives/ninja >=dev-build/cmake-3.20.5
+BUILD_ID: 1
+BUILD_TIME: 1741176885
+CPV: dev-libs/plasma-wayland-protocols-1.16.0
+DEFINED_PHASES: compile configure info install nofetch prepare test unpack
+EAPI: 8
+IUSE: test
+KEYWORDS: amd64 arm arm64 ~loong ppc64 ~riscv x86
+LICENSE: LGPL-2.1
+MD5: 20f65c4eee4c5cf1432d961a6c4da791
+PATH: dev-libs/plasma-wayland-protocols/plasma-wayland-protocols-1.16.0-1.gpkg.tar
+RESTRICT: test
+SHA1: 2a24278fc1c911420bf3631b28270a6881b0cd70
+SIZE: 81920
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741176905
+REPO: gentoo
+
+BDEPEND: dev-libs/libpcre2:* dev-qt/qtbase:6 >=kde-frameworks/extra-cmake-modules-6.0:* app-alternatives/ninja >=dev-build/cmake-3.20.5
+BUILD_ID: 2
+BUILD_TIME: 1741179033
+CPV: dev-libs/plasma-wayland-protocols-1.16.0
+DEFINED_PHASES: compile configure info install nofetch prepare test unpack
+EAPI: 8
+IUSE: test
+KEYWORDS: amd64 arm arm64 ~loong ppc64 ~riscv x86
+LICENSE: LGPL-2.1
+MD5: 7eadefe3c3fa4ece69a7148003688891
+PATH: dev-libs/plasma-wayland-protocols/plasma-wayland-protocols-1.16.0-2.gpkg.tar
+RESTRICT: test
+SHA1: bd7f48fc8050a2e91c4e0f05570d9a77bdcbe87c
+SIZE: 81920
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741179052
+REPO: gentoo
+
 BDEPEND: >=app-portage/elt-patches-20240116
 BUILD_ID: 1
 BUILD_TIME: 1736208666
@@ -8216,6 +8318,50 @@ SHA1: 3d4cf164be21cf5254a904e2f8c35befe71f768b
 SIZE: 327680
 USE: elibc_glibc kernel_linux ppc64
 MTIME: 1736262387
+REPO: gentoo
+
+BDEPEND: dev-libs/openssl:0/3= >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+BUILD_ID: 1
+BUILD_TIME: 1741168098
+CPV: dev-perl/Net-SSLeay-1.940.0-r1
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: dev-libs/openssl:0/3= >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+EAPI: 8
+IUSE: minimal examples perl_features_debug perl_features_ithreads perl_features_quadmath test examples
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: Artistic-2
+MD5: 5907d2024408a85fe583e2830a5e7304
+PATH: dev-perl/Net-SSLeay/Net-SSLeay-1.940.0-r1-1.gpkg.tar
+PROVIDES: ppc_64: SSLeay.so
+RDEPEND: dev-libs/openssl:0/3= >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath] dev-lang/perl:0/5.40= >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libc.so.6 libcrypto.so.3 libssl.so.3
+RESTRICT: test
+SHA1: a90cc05761f7e3bd0fb9b438d618ff683f7868f3
+SIZE: 327680
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741168119
+REPO: gentoo
+
+BDEPEND: dev-libs/openssl:0/3= >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+BUILD_ID: 2
+BUILD_TIME: 1741170196
+CPV: dev-perl/Net-SSLeay-1.940.0-r1
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: dev-libs/openssl:0/3= >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+EAPI: 8
+IUSE: minimal examples perl_features_debug perl_features_ithreads perl_features_quadmath test examples
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: Artistic-2
+MD5: 7e3bdb8d280c10a15e489ec10dd7dec7
+PATH: dev-perl/Net-SSLeay/Net-SSLeay-1.940.0-r1-2.gpkg.tar
+PROVIDES: ppc_64: SSLeay.so
+RDEPEND: dev-libs/openssl:0/3= >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath] dev-lang/perl:0/5.40= >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libc.so.6 libcrypto.so.3 libssl.so.3
+RESTRICT: test
+SHA1: beec40b7967045eb7a48a3594881f933df717049
+SIZE: 327680
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741170217
 REPO: gentoo
 
 BDEPEND: >=virtual/perl-Scalar-List-Utils-1.180.0 >=virtual/perl-XSLoader-0.220.0 >=dev-perl/Config-AutoConf-0.315.0 >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
@@ -10199,6 +10345,52 @@ USE: elibc_glibc kernel_linux network opengl ppc64 sql ssl svg vulkan widgets
 MTIME: 1736367002
 REPO: gentoo
 
+BDEPEND: || ( dev-lang/python:3.13 dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) ~dev-qt/qtshadertools-6.8.2:6 app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1741224382
+CPV: dev-qt/qtdeclarative-6.8.2
+DEFINED_PHASES: compile configure install prepare setup test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6[-accessibility,gui,network,opengl,sql,ssl,vulkan,widgets] ~dev-qt/qtsvg-6.8.2:6 dev-util/vulkan-headers
+EAPI: 8
+IUSE: accessibility +jit +network opengl qmlls +sql +ssl svg vulkan +widgets custom-cflags
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: ff42c7085df35421e21b5c46e43adc81
+PATH: dev-qt/qtdeclarative/qtdeclarative-6.8.2-1.gpkg.tar
+PROVIDES: ppc_64: libQt6LabsAnimation.so.6 libQt6LabsFolderListModel.so.6 libQt6LabsPlatform.so.6 libQt6LabsQmlModels.so.6 libQt6LabsSettings.so.6 libQt6LabsSharedImage.so.6 libQt6LabsWavefrontMesh.so.6 libQt6Qml.so.6 libQt6QmlCompiler.so.6 libQt6QmlCore.so.6 libQt6QmlLocalStorage.so.6 libQt6QmlMeta.so.6 libQt6QmlModels.so.6 libQt6QmlNetwork.so.6 libQt6QmlWorkerScript.so.6 libQt6QmlXmlListModel.so.6 libQt6Quick.so.6 libQt6QuickControls2.so.6 libQt6QuickControls2Basic.so.6 libQt6QuickControls2BasicStyleImpl.so.6 libQt6QuickControls2FluentWinUI3StyleImpl.so.6 libQt6QuickControls2Fusion.so.6 libQt6QuickControls2FusionStyleImpl.so.6 libQt6QuickControls2Imagine.so.6 libQt6QuickControls2ImagineStyleImpl.so.6 libQt6QuickControls2Impl.so.6 libQt6QuickControls2Material.so.6 libQt6QuickControls2MaterialStyleImpl.so.6 libQt6QuickControls2Universal.so.6 libQt6QuickControls2UniversalStyleImpl.so.6 libQt6QuickDialogs2.so.6 libQt6QuickDialogs2QuickImpl.so.6 libQt6QuickDialogs2Utils.so.6 libQt6QuickEffects.so.6 libQt6QuickLayouts.so.6 libQt6QuickParticles.so.6 libQt6QuickShapes.so.6 libQt6QuickTemplates2.so.6 libQt6QuickTest.so.6 libQt6QuickVectorImage.so.6 libQt6QuickVectorImageGenerator.so.6 libQt6QuickWidgets.so.6 libeffectsplugin.so liblabsanimationplugin.so liblabsmodelsplugin.so liblabsplatformplugin.so libmodelsplugin.so libparticlesplugin.so libqmldbg_debugger.so libqmldbg_inspector.so libqmldbg_local.so libqmldbg_messages.so libqmldbg_native.so libqmldbg_nativedebugger.so libqmldbg_preview.so libqmldbg_profiler.so libqmldbg_quickprofiler.so libqmldbg_server.so libqmldbg_tcp.so libqmlfolderlistmodelplugin.so libqmllocalstorageplugin.so libqmlnetworkplugin.so libqmlplugin.so libqmlsettingsplugin.so libqmlshapesplugin.so libqmlwavefrontmeshplugin.so libqmlxmllistmodelplugin.so libqquicklayoutsplugin.so libqquickvectorimageplugin.so libqtqmlcoreplugin.so libqtquick2plugin.so libqtquickcontrols2basicstyleimplplugin.so libqtquickcontrols2basicstyleplugin.so libqtquickcontrols2fluentwinui3styleimplplugin.so libqtquickcontrols2fluentwinui3styleplugin.so libqtquickcontrols2fusionstyleimplplugin.so libqtquickcontrols2fusionstyleplugin.so libqtquickcontrols2imaginestyleimplplugin.so libqtquickcontrols2imaginestyleplugin.so libqtquickcontrols2implplugin.so libqtquickcontrols2materialstyleimplplugin.so libqtquickcontrols2materialstyleplugin.so libqtquickcontrols2nativestyleplugin.so libqtquickcontrols2plugin.so libqtquickcontrols2universalstyleimplplugin.so libqtquickcontrols2universalstyleplugin.so libqtquickdialogs2quickimplplugin.so libqtquickdialogsplugin.so libqtquicktemplates2plugin.so libquickcontrolstestutilsprivateplugin.so libquicklintplugin.so libquicktestplugin.so libquicktoolingplugin.so libquickwindowplugin.so libsharedimageplugin.so libworkerscriptplugin.so
+RDEPEND: ~dev-qt/qtbase-6.8.2:6[-accessibility,gui,network,opengl,sql,ssl,vulkan,widgets] ~dev-qt/qtsvg-6.8.2:6 >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: ld64.so.1 libQt6Core.so.6 libQt6Gui.so.6 libQt6Network.so.6 libQt6OpenGL.so.6 libQt6Sql.so.6 libQt6Svg.so.6 libQt6Test.so.6 libQt6Widgets.so.6 libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 1aca5d01f482b0b3384791ce9774222270abe7a0
+SIZE: 22159360
+SLOT: 6/6.8.2
+USE: elibc_glibc kernel_linux network opengl ppc64 sql ssl svg vulkan widgets
+MTIME: 1741224495
+REPO: gentoo
+
+BDEPEND: || ( dev-lang/python:3.13 dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) ~dev-qt/qtshadertools-6.8.2:6 app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 2
+BUILD_TIME: 1741226099
+CPV: dev-qt/qtdeclarative-6.8.2
+DEFINED_PHASES: compile configure install prepare setup test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6[-accessibility,gui,network,opengl,sql,ssl,vulkan,widgets] ~dev-qt/qtsvg-6.8.2:6 dev-util/vulkan-headers
+EAPI: 8
+IUSE: accessibility +jit +network opengl qmlls +sql +ssl svg vulkan +widgets custom-cflags
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: ad5deab11599cb6ea0ecab18e02c1b16
+PATH: dev-qt/qtdeclarative/qtdeclarative-6.8.2-2.gpkg.tar
+PROVIDES: ppc_64: libQt6LabsAnimation.so.6 libQt6LabsFolderListModel.so.6 libQt6LabsPlatform.so.6 libQt6LabsQmlModels.so.6 libQt6LabsSettings.so.6 libQt6LabsSharedImage.so.6 libQt6LabsWavefrontMesh.so.6 libQt6Qml.so.6 libQt6QmlCompiler.so.6 libQt6QmlCore.so.6 libQt6QmlLocalStorage.so.6 libQt6QmlMeta.so.6 libQt6QmlModels.so.6 libQt6QmlNetwork.so.6 libQt6QmlWorkerScript.so.6 libQt6QmlXmlListModel.so.6 libQt6Quick.so.6 libQt6QuickControls2.so.6 libQt6QuickControls2Basic.so.6 libQt6QuickControls2BasicStyleImpl.so.6 libQt6QuickControls2FluentWinUI3StyleImpl.so.6 libQt6QuickControls2Fusion.so.6 libQt6QuickControls2FusionStyleImpl.so.6 libQt6QuickControls2Imagine.so.6 libQt6QuickControls2ImagineStyleImpl.so.6 libQt6QuickControls2Impl.so.6 libQt6QuickControls2Material.so.6 libQt6QuickControls2MaterialStyleImpl.so.6 libQt6QuickControls2Universal.so.6 libQt6QuickControls2UniversalStyleImpl.so.6 libQt6QuickDialogs2.so.6 libQt6QuickDialogs2QuickImpl.so.6 libQt6QuickDialogs2Utils.so.6 libQt6QuickEffects.so.6 libQt6QuickLayouts.so.6 libQt6QuickParticles.so.6 libQt6QuickShapes.so.6 libQt6QuickTemplates2.so.6 libQt6QuickTest.so.6 libQt6QuickVectorImage.so.6 libQt6QuickVectorImageGenerator.so.6 libQt6QuickWidgets.so.6 libeffectsplugin.so liblabsanimationplugin.so liblabsmodelsplugin.so liblabsplatformplugin.so libmodelsplugin.so libparticlesplugin.so libqmldbg_debugger.so libqmldbg_inspector.so libqmldbg_local.so libqmldbg_messages.so libqmldbg_native.so libqmldbg_nativedebugger.so libqmldbg_preview.so libqmldbg_profiler.so libqmldbg_quickprofiler.so libqmldbg_server.so libqmldbg_tcp.so libqmlfolderlistmodelplugin.so libqmllocalstorageplugin.so libqmlnetworkplugin.so libqmlplugin.so libqmlsettingsplugin.so libqmlshapesplugin.so libqmlwavefrontmeshplugin.so libqmlxmllistmodelplugin.so libqquicklayoutsplugin.so libqquickvectorimageplugin.so libqtqmlcoreplugin.so libqtquick2plugin.so libqtquickcontrols2basicstyleimplplugin.so libqtquickcontrols2basicstyleplugin.so libqtquickcontrols2fluentwinui3styleimplplugin.so libqtquickcontrols2fluentwinui3styleplugin.so libqtquickcontrols2fusionstyleimplplugin.so libqtquickcontrols2fusionstyleplugin.so libqtquickcontrols2imaginestyleimplplugin.so libqtquickcontrols2imaginestyleplugin.so libqtquickcontrols2implplugin.so libqtquickcontrols2materialstyleimplplugin.so libqtquickcontrols2materialstyleplugin.so libqtquickcontrols2nativestyleplugin.so libqtquickcontrols2plugin.so libqtquickcontrols2universalstyleimplplugin.so libqtquickcontrols2universalstyleplugin.so libqtquickdialogs2quickimplplugin.so libqtquickdialogsplugin.so libqtquicktemplates2plugin.so libquickcontrolstestutilsprivateplugin.so libquicklintplugin.so libquicktestplugin.so libquicktoolingplugin.so libquickwindowplugin.so libsharedimageplugin.so libworkerscriptplugin.so
+RDEPEND: ~dev-qt/qtbase-6.8.2:6[-accessibility,gui,network,opengl,sql,ssl,vulkan,widgets] ~dev-qt/qtsvg-6.8.2:6 >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: ld64.so.1 libQt6Core.so.6 libQt6Gui.so.6 libQt6Network.so.6 libQt6OpenGL.so.6 libQt6Sql.so.6 libQt6Svg.so.6 libQt6Test.so.6 libQt6Widgets.so.6 libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: f30e3a013c9df48059a5e54b2455448cd846705c
+SIZE: 22159360
+SLOT: 6/6.8.2
+USE: elibc_glibc kernel_linux network opengl ppc64 sql ssl svg vulkan widgets
+MTIME: 1741226231
+REPO: gentoo
+
 BDEPEND: dev-lang/perl virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1736371756
@@ -10244,6 +10436,52 @@ SIZE: 2293760
 SLOT: 6/6.8.1
 USE: elibc_glibc kernel_linux ppc64
 MTIME: 1736362570
+REPO: gentoo
+
+BDEPEND: app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1741182319
+CPV: dev-qt/qtshadertools-6.8.2
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6[gui]
+EAPI: 8
+IUSE: custom-cflags test
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 43c4b039423840bb91ff487da304ee96
+PATH: dev-qt/qtshadertools/qtshadertools-6.8.2-1.gpkg.tar
+PROVIDES: ppc_64: libQt6ShaderTools.so.6
+RDEPEND: ~dev-qt/qtbase-6.8.2:6[gui] >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: ld64.so.1 libQt6Core.so.6 libQt6Gui.so.6 libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 35e57b986e459fefa3fcdb0fe8b1ecd9f0176c29
+SIZE: 2293760
+SLOT: 6/6.8.2
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741182340
+REPO: gentoo
+
+BDEPEND: app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 2
+BUILD_TIME: 1741184375
+CPV: dev-qt/qtshadertools-6.8.2
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6[gui]
+EAPI: 8
+IUSE: custom-cflags test
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: cec05bae495a9cca7304c277e3359687
+PATH: dev-qt/qtshadertools/qtshadertools-6.8.2-2.gpkg.tar
+PROVIDES: ppc_64: libQt6ShaderTools.so.6
+RDEPEND: ~dev-qt/qtbase-6.8.2:6[gui] >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: ld64.so.1 libQt6Core.so.6 libQt6Gui.so.6 libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 55cbf74132113a0f7620d3a07b3fd4c25c72ddfb
+SIZE: 2293760
+SLOT: 6/6.8.2
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741184396
 REPO: gentoo
 
 BDEPEND: dev-lang/perl virtual/pkgconfig
@@ -10294,6 +10532,52 @@ REPO: gentoo
 
 BDEPEND: app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
 BUILD_ID: 1
+BUILD_TIME: 1741176746
+CPV: dev-qt/qtsvg-6.8.2
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6[gui,widgets] sys-libs/zlib:0/1=
+EAPI: 8
+IUSE: custom-cflags test
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 3f5fc4a30f33c0019c241f4df45092cf
+PATH: dev-qt/qtsvg/qtsvg-6.8.2-1.gpkg.tar
+PROVIDES: ppc_64: libQt6Svg.so.6 libQt6SvgWidgets.so.6 libqsvg.so libqsvgicon.so
+RDEPEND: ~dev-qt/qtbase-6.8.2:6[gui,widgets] sys-libs/zlib:0/1= >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libQt6Core.so.6 libQt6Gui.so.6 libQt6Widgets.so.6 libc.so.6 libm.so.6 libstdc++.so.6 libz.so.1
+RESTRICT: test
+SHA1: 61ec9a1a9518da2f9c991363c7303163d835b894
+SIZE: 358400
+SLOT: 6/6.8.2
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741176768
+REPO: gentoo
+
+BDEPEND: app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 2
+BUILD_TIME: 1741178898
+CPV: dev-qt/qtsvg-6.8.2
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6[gui,widgets] sys-libs/zlib:0/1=
+EAPI: 8
+IUSE: custom-cflags test
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 6086f6830c90c0ac56717f762ccf7e2f
+PATH: dev-qt/qtsvg/qtsvg-6.8.2-2.gpkg.tar
+PROVIDES: ppc_64: libQt6Svg.so.6 libQt6SvgWidgets.so.6 libqsvg.so libqsvgicon.so
+RDEPEND: ~dev-qt/qtbase-6.8.2:6[gui,widgets] sys-libs/zlib:0/1= >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libQt6Core.so.6 libQt6Gui.so.6 libQt6Widgets.so.6 libc.so.6 libm.so.6 libstdc++.so.6 libz.so.1
+RESTRICT: test
+SHA1: 2ce22a3e8ffb6a93926106515d54ab4caf5450d9
+SIZE: 358400
+SLOT: 6/6.8.2
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741178919
+REPO: gentoo
+
+BDEPEND: app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 1
 BUILD_TIME: 1736367593
 CPV: dev-qt/qttools-6.8.1
 DEFINED_PHASES: compile configure install postinst prepare test unpack
@@ -10315,6 +10599,52 @@ USE: assistant elibc_glibc kernel_linux linguist llvm_slot_19 opengl ppc64 qdbus
 MTIME: 1736367604
 REPO: gentoo
 
+BDEPEND: app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1741228842
+CPV: dev-qt/qttools-6.8.2
+DEFINED_PHASES: compile configure install postinst prepare test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6[widgets] ~dev-qt/qtbase-6.8.2:6[concurrent,network,sql,sqlite] ~dev-qt/qtbase-6.8.2:6[dbus,xml] ~dev-qt/qtdeclarative-6.8.2:6[widgets] ~dev-qt/qtbase-6.8.2:6[opengl]
+EAPI: 8
+IUSE: +assistant clang designer distancefieldgenerator gles2-only +linguist opengl pixeltool +qdbus qdoc qml qmlls qtattributionsscanner qtdiag qtplugininfo vulkan +widgets zstd +llvm_slot_19 llvm_slot_17 llvm_slot_18 custom-cflags
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 2ec9502534ba6e7c481b323d10d27e7d
+PATH: dev-qt/qttools/qttools-6.8.2-1.gpkg.tar
+PROVIDES: ppc_64: libQt6Help.so.6 libQt6UiTools.so.6
+RDEPEND: ~dev-qt/qtbase-6.8.2:6[widgets] ~dev-qt/qtbase-6.8.2:6[concurrent,network,sql,sqlite] ~dev-qt/qtbase-6.8.2:6[dbus,xml] ~dev-qt/qtdeclarative-6.8.2:6[widgets] ~dev-qt/qtbase-6.8.2:6[opengl] >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libQt6Core.so.6 libQt6DBus.so.6 libQt6Gui.so.6 libQt6Network.so.6 libQt6OpenGLWidgets.so.6 libQt6PrintSupport.so.6 libQt6Qml.so.6 libQt6Sql.so.6 libQt6Widgets.so.6 libQt6Xml.so.6 libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: efd217736948522d2d8d002ef6628c321f78d3ba
+SIZE: 2775040
+SLOT: 6/6.8.2
+USE: assistant elibc_glibc kernel_linux linguist llvm_slot_19 opengl ppc64 qdbus qml vulkan widgets zstd
+MTIME: 1741228869
+REPO: gentoo
+
+BDEPEND: app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 2
+BUILD_TIME: 1741230747
+CPV: dev-qt/qttools-6.8.2
+DEFINED_PHASES: compile configure install postinst prepare test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6[widgets] ~dev-qt/qtbase-6.8.2:6[concurrent,network,sql,sqlite] ~dev-qt/qtbase-6.8.2:6[dbus,xml] ~dev-qt/qtdeclarative-6.8.2:6[widgets] ~dev-qt/qtbase-6.8.2:6[opengl]
+EAPI: 8
+IUSE: +assistant clang designer distancefieldgenerator gles2-only +linguist opengl pixeltool +qdbus qdoc qml qmlls qtattributionsscanner qtdiag qtplugininfo vulkan +widgets zstd +llvm_slot_19 llvm_slot_17 llvm_slot_18 custom-cflags
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 03dbc10e09cbee9419d45738e8b8fe2e
+PATH: dev-qt/qttools/qttools-6.8.2-2.gpkg.tar
+PROVIDES: ppc_64: libQt6Help.so.6 libQt6UiTools.so.6
+RDEPEND: ~dev-qt/qtbase-6.8.2:6[widgets] ~dev-qt/qtbase-6.8.2:6[concurrent,network,sql,sqlite] ~dev-qt/qtbase-6.8.2:6[dbus,xml] ~dev-qt/qtdeclarative-6.8.2:6[widgets] ~dev-qt/qtbase-6.8.2:6[opengl] >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libQt6Core.so.6 libQt6DBus.so.6 libQt6Gui.so.6 libQt6Network.so.6 libQt6OpenGLWidgets.so.6 libQt6PrintSupport.so.6 libQt6Qml.so.6 libQt6Sql.so.6 libQt6Widgets.so.6 libQt6Xml.so.6 libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+RESTRICT: test
+SHA1: 6d036a4ef99a7e9fd96793553f5bfad0aff23a6e
+SIZE: 2775040
+SLOT: 6/6.8.2
+USE: assistant elibc_glibc kernel_linux linguist llvm_slot_19 opengl ppc64 qdbus qml vulkan widgets zstd
+MTIME: 1741230774
+REPO: gentoo
+
 BDEPEND: ~dev-qt/qttools-6.8.1:6[linguist] app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1736367670
@@ -10332,6 +10662,46 @@ SIZE: 2652160
 SLOT: 6/6.8.1
 USE: elibc_glibc kernel_linux ppc64
 MTIME: 1736367678
+REPO: gentoo
+
+BDEPEND: ~dev-qt/qttools-6.8.2:6[linguist] app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1741229154
+CPV: dev-qt/qttranslations-6.8.2
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6
+EAPI: 8
+IUSE: custom-cflags
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: 09c4c05b0aa659df31692fcbf09bc0fc
+PATH: dev-qt/qttranslations/qttranslations-6.8.2-1.gpkg.tar
+RESTRICT: test
+SHA1: fc7558a48be666bc6ea94b4bca77f8a72c664781
+SIZE: 2652160
+SLOT: 6/6.8.2
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741229175
+REPO: gentoo
+
+BDEPEND: ~dev-qt/qttools-6.8.2:6[linguist] app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-lang/perl virtual/pkgconfig
+BUILD_ID: 2
+BUILD_TIME: 1741231060
+CPV: dev-qt/qttranslations-6.8.2
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: ~dev-qt/qtbase-6.8.2:6
+EAPI: 8
+IUSE: custom-cflags
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
+LICENSE: || ( GPL-2 GPL-3 LGPL-3 ) FDL-1.3
+MD5: a0435bf17e11d4b061a1d657a76df65a
+PATH: dev-qt/qttranslations/qttranslations-6.8.2-2.gpkg.tar
+RESTRICT: test
+SHA1: 923ff5c125b61f92dd637b81931caabfd866f064
+SIZE: 2652160
+SLOT: 6/6.8.2
+USE: elibc_glibc kernel_linux ppc64
+MTIME: 1741231081
 REPO: gentoo
 
 BDEPEND: dev-util/wayland-scanner dev-lang/perl virtual/pkgconfig
@@ -12124,6 +12494,54 @@ USE: elibc_glibc kernel_linux ppc64
 MTIME: 1736351076
 REPO: gentoo
 
+BDEPEND: >=dev-qt/qtwayland-6.7.2:6 dev-util/wayland-scanner app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-qt/qttools:6[assistant] dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-6.10:*
+BUILD_ID: 1
+BUILD_TIME: 1741231554
+CPV: kde-frameworks/kguiaddons-6.10.0
+DEFINED_PHASES: compile configure info install nofetch postinst postrm preinst prepare test unpack
+DEPEND: >=dev-qt/qtbase-6.7.2:6[dbus,gui] >=dev-qt/qtdeclarative-6.7.2:6 dev-libs/wayland >=dev-qt/qtbase-6.7.2:6/6.8.2=[wayland] >=dev-qt/qtwayland-6.7.2:6 >=dev-qt/qtbase-6.7.2:6[X] x11-libs/libX11 >=dev-libs/plasma-wayland-protocols-1.15.0 x11-base/xorg-proto x11-libs/libxcb dev-qt/qtbase:6
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: dbus wayland X debug doc test
+KEYWORDS: amd64 arm64 ~loong ppc64 ~riscv ~x86
+LICENSE: LGPL-2+
+MD5: 01880947c03cba6d16a2d3f56d10323c
+PATH: kde-frameworks/kguiaddons/kguiaddons-6.10.0-1.gpkg.tar
+PROVIDES: ppc_64: libKF6GuiAddons.so.6 libkguiaddonsqml.so
+RDEPEND: >=dev-qt/qtbase-6.7.2:6[dbus,gui] >=dev-qt/qtdeclarative-6.7.2:6 dev-libs/wayland >=dev-qt/qtbase-6.7.2:6/6.8.2=[wayland] >=dev-qt/qtwayland-6.7.2:6 >=dev-qt/qtbase-6.7.2:6[X] x11-libs/libX11 !kde-frameworks/kguiaddons:5[-kf6compat(-)] >=kde-frameworks/kf-env-6 dev-qt/qtbase:6 >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libQt6Core.so.6 libQt6DBus.so.6 libQt6Gui.so.6 libQt6Qml.so.6 libQt6WaylandClient.so.6 libX11.so.6 libc.so.6 libm.so.6 libstdc++.so.6 libwayland-client.so.0
+RESTRICT: test
+SHA1: c239b56e79f4ab421e040930fbe5d75fb2381544
+SIZE: 225280
+SLOT: 6/6.10
+USE: X dbus elibc_glibc kernel_linux ppc64 wayland
+MTIME: 1741231577
+REPO: gentoo
+
+BDEPEND: >=dev-qt/qtwayland-6.7.2:6 dev-util/wayland-scanner app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-qt/qttools:6[assistant] dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-6.10:*
+BUILD_ID: 2
+BUILD_TIME: 1741233717
+CPV: kde-frameworks/kguiaddons-6.10.0
+DEFINED_PHASES: compile configure info install nofetch postinst postrm preinst prepare test unpack
+DEPEND: >=dev-qt/qtbase-6.7.2:6[dbus,gui] >=dev-qt/qtdeclarative-6.7.2:6 dev-libs/wayland >=dev-qt/qtbase-6.7.2:6/6.8.2=[wayland] >=dev-qt/qtwayland-6.7.2:6 >=dev-qt/qtbase-6.7.2:6[X] x11-libs/libX11 >=dev-libs/plasma-wayland-protocols-1.15.0 x11-base/xorg-proto x11-libs/libxcb dev-qt/qtbase:6
+EAPI: 8
+IDEPEND: dev-util/desktop-file-utils x11-misc/shared-mime-info
+IUSE: dbus wayland X debug doc test
+KEYWORDS: amd64 arm64 ~loong ppc64 ~riscv ~x86
+LICENSE: LGPL-2+
+MD5: cbdeea071fdbb6913d1d6a1c8f9a952f
+PATH: kde-frameworks/kguiaddons/kguiaddons-6.10.0-2.gpkg.tar
+PROVIDES: ppc_64: libKF6GuiAddons.so.6 libkguiaddonsqml.so
+RDEPEND: >=dev-qt/qtbase-6.7.2:6[dbus,gui] >=dev-qt/qtdeclarative-6.7.2:6 dev-libs/wayland >=dev-qt/qtbase-6.7.2:6/6.8.2=[wayland] >=dev-qt/qtwayland-6.7.2:6 >=dev-qt/qtbase-6.7.2:6[X] x11-libs/libX11 !kde-frameworks/kguiaddons:5[-kf6compat(-)] >=kde-frameworks/kf-env-6 dev-qt/qtbase:6 >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libQt6Core.so.6 libQt6DBus.so.6 libQt6Gui.so.6 libQt6Qml.so.6 libQt6WaylandClient.so.6 libX11.so.6 libc.so.6 libm.so.6 libstdc++.so.6 libwayland-client.so.0
+RESTRICT: test
+SHA1: eb3316075c5fb61aa6dea9556fb7f71362851ffd
+SIZE: 225280
+SLOT: 6/6.10
+USE: X dbus elibc_glibc kernel_linux ppc64 wayland
+MTIME: 1741233739
+REPO: gentoo
+
 BDEPEND: >=dev-qt/qtwayland-6.6.2:6 dev-util/wayland-scanner app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-qt/qttools:6[assistant] dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-6.7:*
 BUILD_ID: 1
 BUILD_TIME: 1736368029
@@ -12146,6 +12564,52 @@ SIZE: 215040
 SLOT: 6/6.7
 USE: X dbus elibc_glibc kernel_linux ppc64 wayland
 MTIME: 1736368038
+REPO: gentoo
+
+BDEPEND: >=dev-qt/qttools-6.7.2:6[linguist] app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-qt/qttools:6[assistant] dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-6.10:*
+BUILD_ID: 1
+BUILD_TIME: 1741234581
+CPV: kde-frameworks/kwindowsystem-6.10.0
+DEFINED_PHASES: compile configure info install nofetch prepare test unpack
+DEPEND: >=dev-qt/qtbase-6.7.2:6[gui,wayland] >=dev-qt/qtdeclarative-6.7.2:6 >=dev-qt/qtwayland-6.7.2:6/6.8.2= >=dev-qt/qtbase-6.7.2:6/6.8.2=[gui,X] x11-base/xorg-proto x11-libs/libX11 x11-libs/libXfixes x11-libs/libxcb x11-libs/xcb-util-keysyms dev-libs/plasma-wayland-protocols >=dev-libs/wayland-protocols-1.21 dev-qt/qtbase:6
+EAPI: 8
+IUSE: wayland X debug doc test
+KEYWORDS: amd64 arm64 ~loong ppc64 ~riscv ~x86
+LICENSE: || ( LGPL-2.1 LGPL-3 ) MIT
+MD5: f90765c5300469769e069f891cfe7f6f
+PATH: kde-frameworks/kwindowsystem/kwindowsystem-6.10.0-1.gpkg.tar
+PROVIDES: ppc_64: KF6WindowSystemKWaylandPlugin.so KF6WindowSystemX11Plugin.so libKF6WindowSystem.so.6 libKWindowSystem.so
+RDEPEND: >=dev-qt/qtbase-6.7.2:6[gui,wayland] >=dev-qt/qtdeclarative-6.7.2:6 >=dev-qt/qtwayland-6.7.2:6/6.8.2= >=dev-qt/qtbase-6.7.2:6/6.8.2=[gui,X] x11-base/xorg-proto x11-libs/libX11 x11-libs/libXfixes x11-libs/libxcb x11-libs/xcb-util-keysyms >=kde-frameworks/kf-env-6 dev-qt/qtbase:6 >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libQt6Core.so.6 libQt6Gui.so.6 libQt6Qml.so.6 libQt6WaylandClient.so.6 libX11.so.6 libXfixes.so.3 libc.so.6 libm.so.6 libstdc++.so.6 libwayland-client.so.0 libxcb-keysyms.so.1 libxcb-res.so.0 libxcb.so.1
+RESTRICT: test test
+SHA1: 0473136e5b10427e9df2586aa1354757393cb22b
+SIZE: 348160
+SLOT: 6/6.10
+USE: X elibc_glibc kernel_linux ppc64 wayland
+MTIME: 1741234605
+REPO: gentoo
+
+BDEPEND: >=dev-qt/qttools-6.7.2:6[linguist] app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-qt/qttools:6[assistant] dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-6.10:*
+BUILD_ID: 2
+BUILD_TIME: 1741237385
+CPV: kde-frameworks/kwindowsystem-6.10.0
+DEFINED_PHASES: compile configure info install nofetch prepare test unpack
+DEPEND: >=dev-qt/qtbase-6.7.2:6[gui,wayland] >=dev-qt/qtdeclarative-6.7.2:6 >=dev-qt/qtwayland-6.7.2:6/6.8.2= >=dev-qt/qtbase-6.7.2:6/6.8.2=[gui,X] x11-base/xorg-proto x11-libs/libX11 x11-libs/libXfixes x11-libs/libxcb x11-libs/xcb-util-keysyms dev-libs/plasma-wayland-protocols >=dev-libs/wayland-protocols-1.21 dev-qt/qtbase:6
+EAPI: 8
+IUSE: wayland X debug doc test
+KEYWORDS: amd64 arm64 ~loong ppc64 ~riscv ~x86
+LICENSE: || ( LGPL-2.1 LGPL-3 ) MIT
+MD5: fc7dd874f1db3fd303879e5ce18a7f0f
+PATH: kde-frameworks/kwindowsystem/kwindowsystem-6.10.0-2.gpkg.tar
+PROVIDES: ppc_64: KF6WindowSystemKWaylandPlugin.so KF6WindowSystemX11Plugin.so libKF6WindowSystem.so.6 libKWindowSystem.so
+RDEPEND: >=dev-qt/qtbase-6.7.2:6[gui,wayland] >=dev-qt/qtdeclarative-6.7.2:6 >=dev-qt/qtwayland-6.7.2:6/6.8.2= >=dev-qt/qtbase-6.7.2:6/6.8.2=[gui,X] x11-base/xorg-proto x11-libs/libX11 x11-libs/libXfixes x11-libs/libxcb x11-libs/xcb-util-keysyms >=kde-frameworks/kf-env-6 dev-qt/qtbase:6 >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: libQt6Core.so.6 libQt6Gui.so.6 libQt6Qml.so.6 libQt6WaylandClient.so.6 libX11.so.6 libXfixes.so.3 libc.so.6 libm.so.6 libstdc++.so.6 libwayland-client.so.0 libxcb-keysyms.so.1 libxcb-res.so.0 libxcb.so.1
+RESTRICT: test test
+SHA1: 18b74aeac45a949029dac940689538f2f9960b70
+SIZE: 348160
+SLOT: 6/6.10
+USE: X elibc_glibc kernel_linux ppc64 wayland
+MTIME: 1741237409
 REPO: gentoo
 
 BDEPEND: >=dev-qt/qttools-6.6.2:6[linguist] app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-qt/qttools:6[assistant] dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-6.7:*
@@ -20551,6 +21015,29 @@ USE: elibc_glibc kernel_linux kill ncurses nls ppc64 unicode
 MTIME: 1740850014
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig virtual/pkgconfig >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/libtool-2.4.7-r3
+BUILD_ID: 4
+BUILD_TIME: 1741239779
+CPV: sys-process/procps-4.0.4-r2
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: sys-auth/elogind >=sys-libs/ncurses-5.7-r7:0/6=[unicode(+)]
+EAPI: 8
+IUSE: elogind +kill modern-top +ncurses nls selinux static-libs skill systemd test unicode abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux
+LICENSE: GPL-2+ LGPL-2+ LGPL-2.1+
+MD5: 8280a0064d2941fe1c89321b4fd39f87
+PATH: sys-process/procps/procps-4.0.4-r2-4.gpkg.tar
+PROVIDES: ppc_64: libproc2.so.0
+RDEPEND: sys-auth/elogind >=sys-libs/ncurses-5.7-r7:0/6=[unicode(+)] !<app-i18n/man-pages-l10n-4.2.0-r1 !<app-i18n/man-pages-de-2.12-r1 !<app-i18n/man-pages-pl-0.7-r1 !sys-apps/coreutils[kill] !sys-apps/util-linux[kill] >=sys-libs/glibc-2.40-r8
+REQUIRES: ppc_64: ld64.so.1 libc.so.6 libelogind.so.0 libncursesw.so.6 libtinfow.so.6
+RESTRICT: test
+SHA1: 6da939b284ae9f9d1122999d5a9f552ec5d7f0e0
+SIZE: 1054720
+SLOT: 0/0-ng
+USE: elibc_glibc elogind kernel_linux kill ncurses nls ppc64 unicode
+MTIME: 1741239839
+REPO: gentoo
+
 BDEPEND: >=dev-build/libtool-2.2.6b sys-devel/gettext
 BUILD_ID: 1
 BUILD_TIME: 1736347850
@@ -24636,4 +25123,5 @@ SIZE: 440320
 USE: elibc_glibc elogind kernel_linux locking opengl pam ppc64
 MTIME: 1737093299
 REPO: gentoo
+
 
