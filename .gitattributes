@@ -241,3 +241,4 @@ stage3-cell-openrc-20250315T114600Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-cell-openrc-20250315T114600Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-openrc-20250317T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-openrc-20250317T065223Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage4-cell-openrc-20250317T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
