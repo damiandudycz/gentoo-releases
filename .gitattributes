@@ -249,3 +249,4 @@ stage3-cell-openrc-20250317T153200Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 livecd-stage1-cell-20250317T153200Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 livecd-stage2-cell-20250317T153200Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 install-cell-20250317T153200Z.iso filter=lfs diff=lfs merge=lfs -text
+stage4-cell-openrc-20250317T153200Z.tar.xz filter=lfs diff=lfs merge=lfs -text
