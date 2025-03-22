@@ -257,3 +257,4 @@ livecd-stage2-cell-20250319T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-openrc-20250321T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 livecd-stage1-cell-20250321T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-openrc-20250322T083000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+livecd-stage1-cell-20250322T083000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
