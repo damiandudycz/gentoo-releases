@@ -267,3 +267,4 @@ install-cell-20250323T073400Z.iso filter=lfs diff=lfs merge=lfs -text
 livecd-stage2-cell-20250323T073400Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage4-cell-openrc-20250323T073400Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-openrc-20250324T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+livecd-stage1-cell-20250324T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
