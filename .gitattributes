@@ -279,3 +279,11 @@ stage4-cell-openrc-20250327T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-openrc-20250328T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-openrc-20250330T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 livecd-stage1-cell-20250330T000000Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage1-amd64-openrc-20250330T132437Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage1-amd64-openrc-20250330T142450Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage1-amd64-openrc-20250331T085307Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage3-amd64-desktop-openrc-20250331T101900Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage4-amd64-desktop-openrc-20250331T165251Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage4-amd64-desktop-gnome-openrc-20250401T114521Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage4-amd64-desktop-openrc-20250401T203528Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+stage4-amd64-desktop-gnome-openrc-20250401T203528Z.tar.xz filter=lfs diff=lfs merge=lfs -text
