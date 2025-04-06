@@ -291,3 +291,5 @@ stage3-cell-desktop-openrc-20250404T093500Z.tar.xz filter=lfs diff=lfs merge=lfs
 stage4-cell-desktop-openrc-20250404T093500Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 stage3-cell-openrc-20250404T093500Z.tar.xz filter=lfs diff=lfs merge=lfs -text
 livecd-stage1-cell-20250404T093500Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+livecd-stage2-cell-20250404T093500Z.tar.xz filter=lfs diff=lfs merge=lfs -text
+install-cell-20250404T093500Z.iso filter=lfs diff=lfs merge=lfs -text
